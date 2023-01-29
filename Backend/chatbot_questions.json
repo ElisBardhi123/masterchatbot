@@ -1,0 +1,1509 @@
+[
+  {
+    "_id": "0",
+    "links": [],
+    "questions": ["New Question"],
+    "responses": "New Question",
+    "tag": "New Question",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6271214d62e659d4a3bbd1bc",
+    "links": [],
+    "questions": [
+      "Wie lange dauert die Masterarbeit?",
+      "Wie lange dauert die Abschlussarbeit?",
+      "Wie lange ist die Bearbeitungszeit der Masterarbeit? ",
+      "Wie lange dauert die Thesis?",
+      "Welche Bearbeitungszeit weist die Masterarbeit auf?"
+    ],
+    "responses": "§17 (5) der Allg. PO der THM: \"Die Bearbeitung der Masterarbeit erfolgt studienbegleitend. Der Bearbeitungszeitraum darf sechs\nMonate nicht überschreiten.\" Die Masterarbeit kann zu jedem Zeitpunkt starten, wenn die Zulassungsvoraussetzungen erfüllt sind.\"",
+    "tag": "Abschlussarbeit (Zulassung, Ausgabe, externer Korreferent, Abgabe)",
+    "scope": "master"
+  },
+  {
+    "_id": "626fd509c83b4242f8ba1f74",
+    "links": [
+      "https://www.thm.de/amb/pruefungsordnungen/fb-13-mnd-mathematik-naturwissenschaften-und-datenverarbeitung/wirtschaftsinformatik-master.html"
+    ],
+    "questions": [
+      "Wo finde ich die aktuellen Änderungen der Prüfungsordnung PO?",
+      "Wo ist die aktuelle Prüfungsordnung"
+    ],
+    "tag": "Prüfungsordnung",
+    "responses": "Die Dokumente zu den aktuellen Änderungen der PO M.Sc. Wirtschaftsinformatik aus dem Amtlichen Mitteilungblatt (AMB) finden Sie hier:",
+    "scope": "master"
+  },
+  {
+    "_id": "626fd4d1c83b4242f8ba1f73",
+    "links": [
+      "https://www.thm.de/amb/pruefungsordnungen/fb-13-mnd-mathematik-naturwissenschaften-und-datenverarbeitung/wirtschaftsinformatik-bachelor.html"
+    ],
+    "questions": [
+      "Wo finde ich die aktuellen Änderungen der Prüfungsordnung PO?"
+    ],
+    "tag": "Prüfungsordnung",
+    "responses": "Die Dokumente zu den aktuellen Änderungen der PO B.Sc. Wirtschaftsinformatik aus dem Amtlichen Mitteilungblatt (AMB) finden Sie hier:",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "626fd40fc83b4242f8ba1f72",
+    "links": [
+      "https://www.thm.de/mnd/fachbereich/organisation/dokumente/anmeldung-zur-bpp-wk"
+    ],
+    "questions": [
+      "Wo finde ich den Antrag zur Anmeldung zur BPP?",
+      "Wo finde ich das Formular zur Anmeldung zum Praktikum?"
+    ],
+    "tag": "BPP / Praktikum",
+    "responses": "Das Formular zur Anmeldung zur Berufspraktischen Phase (BPP) im Bachelorstudiengang Wirtschaftsinformatik finden Sie hier:",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "626fd369c83b4242f8ba1f71",
+    "links": [
+      "https://www.thm.de/mnd/fachbereich/organisation/dokumente/antrag-auf-zulassung-zur-bpp-wk/download"
+    ],
+    "questions": [
+      "Wo finde ich den Antrag auf Zulassung zur BPP?",
+      "Wo finde ich das Formular zur Zulassung zum Praktikum?"
+    ],
+    "tag": "BPP / Praktikum",
+    "responses": "Den Antrag auf Zulassung zur Berufspraktischen Phase (BPP) im Bachelor-Studiengang Wirtschaftsinformatik finden Sie hier:",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "626fd2ac62e659d4a3bbd187",
+    "links": [
+      "https://www.thm.de/mnd/component/edocman/antrag-auf-zulassung-und-ausgabe-der-abschlussarbeit-ab-sose-2020"
+    ],
+    "questions": [
+      "Wo finde ich den Antrag auf Zulassung und Ausgabe der Abschlussarbeit?",
+      "Wo finde ich das Formular zur Anmeldung der Masterarbeit?",
+      "Wo finde ich den Antrag zur Anmeldung der Masterarbeit?"
+    ],
+    "tag": "Abschlussarbeit (Zulassung, Ausgabe, externer Korreferent, Abgabe)",
+    "responses": "Den Antrag auf Zulassung und Ausgabe der Abschlussarbeit (ab SoSe 2020) im Masterstudiengang Wirtschaftsinformatik finden Sie hier:",
+    "scope": "master"
+  },
+  {
+    "_id": "626fd23a62e659d4a3bbd186",
+    "links": [
+      "https://www.thm.de/mnd/component/edocman/antrag-auf-zulassung-und-ausgabe-der-abschlussarbeit-ab-sose-2020"
+    ],
+    "questions": [
+      "Wo finde ich das Formular zur Anmeldung der Bachelorarbeit?",
+      "Wo finde ich den Antrag auf Zulassung und Ausgabe der Abschlussarbeit?",
+      "Wo finde ich den Antrag zur Anmeldung der Bachelorarbeit?"
+    ],
+    "tag": "Abschlussarbeit (Zulassung, Ausgabe, externer Korreferent, Abgabe)",
+    "responses": "Den Antrag auf Zulassung und Ausgabe der Abschlussarbeit im Studiengang Bachelor Wirtschaftsinformatik (ab SoSe 2020) finden Sie hier:",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "626fd1c362e659d4a3bbd185",
+    "links": [
+      "https://www.thm.de/mnd/component/edocman/formulare-anerkennung-wpm"
+    ],
+    "questions": [
+      "Wo finde ich das Formular zur Schwerpunktwahl im Master Wirtschaftsinformatik?",
+      "Wo finde ich das Formular für die 30 CrP-Auflagenmodule im Master Wirtschaftsinformatik?"
+    ],
+    "tag": "Schwerpunktwahl im Master",
+    "responses": "Das Formulare Master Wirtschaftsinformatik PO2018 Schwerpunktwahl WPM 1-6 und 30 CrP-Auflagenmodule finden Sie hier:",
+    "scope": "master"
+  },
+  {
+    "_id": "626fd0ed62e659d4a3bbd184",
+    "links": [
+      "https://www.thm.de/mnd/component/edocman/zuordnungstabelle-dozenten-semester-wpf-msc-wk"
+    ],
+    "questions": [
+      "Wo finde ich die Zuordnungstabelle Dozenten und Semester für die Wahlpflichtmodule im Masterstudiengang Wirtschaftsinformatik?"
+    ],
+    "tag": "Wahlpflichtmodule",
+    "responses": "Die Zuordnungstabelle Dozenten / Semester für die WP-Module im MSc Wirtschaftsinformatik finden Sie hier:",
+    "scope": "master"
+  },
+  {
+    "_id": "626fcfb262e659d4a3bbd183",
+    "links": [
+      "https://www.thm.de/mnd/component/edocman/zweitpruefer-master-wirtschaftsinformatik-ab-ss21"
+    ],
+    "questions": [
+      "Wer ist der Zweitprüfer bei einem Modul? "
+    ],
+    "tag": "Prüfungen (An-, Abmeldung, Zweitprüfer, Bonuspunkte, Joker-Einsatz)",
+    "responses": "Die aktuelle Zweitprüferliste im Studiengang Master Wirtschaftsinformatik finden Sie hier:",
+    "scope": "master"
+  },
+  {
+    "_id": "626fcf50c83b4242f8ba1f6f",
+    "links": [
+      "https://www.thm.de/mnd/component/edocman/zweitpruefer-ab-dem-sommersemester-2021"
+    ],
+    "questions": [
+      "Wer ist der Zweitprüfer bei einem Modul?"
+    ],
+    "tag": "Prüfungen (An-, Abmeldung, Zweitprüfer, Bonuspunkte, Joker-Einsatz)",
+    "responses": "Die aktuelle Zweitprüferliste für den Bachlorstudiengang Wirtschaftsinformatik finden Sie hier:",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "626fceb662e659d4a3bbd182",
+    "links": [],
+    "questions": [
+      "Wie lange darf die Korrrektur einer Klausur dauern?",
+      "Welche Dauer der Bewertung ist bei einer Klausur möglich?",
+      "Wie lange dauert das Bewertungsverfahren einer Prüfung?",
+      "Gibt es eine zeitliche Bewertungsfrist?"
+    ],
+    "tag": "Prüfungen (An-, Abmeldung, Zweitprüfer, Bonuspunkte, Joker-Einsatz)",
+    "responses": "Gemäß Allg. PO der THM gilt: \"Das Bewertungsverfahren der Klausuren und sonstiger schriftlichen Arbeiten darf 5 Wochen nicht\nüberschreiten, um sicherzustellen, dass den Studierenden keine Nachteile entstehen. Fristüberschreitungen in Ausnahmefällen sind frühzeitig mit dem Prüfungsausschuss abzustimmen. Die Zuständigkeiten des Dekanats und Präsidiums nach den Vorschriften des HHG bleiben unberührt.\"",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "626fcd1662e659d4a3bbd181",
+    "links": [],
+    "questions": [
+      "In welcher Sprache findet der Studiengang Master Wirtschaftsinformatik statt?",
+      "Findet der Studiengang auf Deutsch oder Englisch statt?"
+    ],
+    "tag": "Modulhandbuch",
+    "responses": "§6 (3) fachspezifische PO: \"Lehr- und Prüfungssprache ist Deutsch. Ausnahmen sind im Modulhandbuch festgelegt.\"",
+    "scope": "master"
+  },
+  {
+    "_id": "626fcc79c83b4242f8ba1f6e",
+    "links": [],
+    "questions": [
+      "Kann ich Module aus anderen Studiengängen belegen und einbringen?"
+    ],
+    "tag": "2.\tLeistungsanerkennung (anderer Studiengang, andere Hochschule, Ausland)",
+    "responses": "Gemäß §6 (2) fachspezifische PO gilt: \"Die zu erbringenden Module sind grundsätzlich aus dem Angebot des Masterstudiengangs\n„Wirtschaftsinformatik“ nach Anlage 1 zu absolvieren. Ersatzweise können identische oder gleichwertige\nModule auch aus dem Modulangebot anderer Studiengänge der Technischen Hochschule Mittelhessen\nerbracht werden. Darüber entscheidet der Prüfungsausschuss. Dabei entstandene Fehlversuche werden\nangerechnet. §§ 11 bis 14 der Allgemeinen Bestimmungen (Teil I der Prüfungsordnung) sind anzuwenden.\"",
+    "scope": "master"
+  },
+  {
+    "_id": "626fcbfe62e659d4a3bbd180",
+    "links": [],
+    "questions": [
+      "Wie lange ist die Regelstudienzeit im Masterstudiengang Wirtschaftsinformatik? ",
+      "Wie lange dauert der Studiengang Master Wirtschaftsinformatik?",
+      "Wie lange dauert das Studium in der Regel?",
+      "Dauer des Studiums?"
+    ],
+    "tag": "Prüfungsordnung",
+    "responses": "§6 (1) fachspezifische PO: \"Die Regelstudienzeit im Masterstudiengang Wirtschaftsinformatik beträgt 3 Semester, das entspricht 1,5 Studienjahren. Für den erfolgreichen Abschluss der Masterprüfung sind die in der Modulübersicht aufgeführten Module erfolgreich abzuschließen.\"",
+    "scope": "master"
+  },
+  {
+    "_id": "626fcb45c83b4242f8ba1f6d",
+    "links": [],
+    "questions": [
+      "Ich habe noch offene Module. Kann trotzdem direkt im Anschluss an die Abgabe der Bachelorarbeit das Kolloquium zur Thesis stattfinden?"
+    ],
+    "tag": "Abschlussarbeit (Zulassung, Ausgabe, externer Korreferent, Abgabe)",
+    "responses": "Nein, dass Kolloquium zur Bachelorarbeit kann erst dann stattfinden, wenn alle anderen Module erfolgreich absolviert wurden.",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "626fcb1562e659d4a3bbd17f",
+    "links": [],
+    "questions": [
+      "Ich habe eine Frage zur freiwilligen Teilnahme an einem Modul in einem  anderen Studiengang und Anrechnung von Leistungen. Kann ich dies freiwillig belegen und dann, wenn dort das Modul bestanden wurde, ggf. auch erst nach mehreren, freiwilligen Versuchen, dies anerkennen lassen?"
+    ],
+    "tag": "Leistungsanerkennung (anderer Studiengang, andere Hochschule, Ausland)",
+    "responses": "Eine freiwillige Teilnahme an einem Modul in einen anderen Studiengang ist möglich, wenn der dortige Dozierende dieser zustimmt. Das Modul kann auf Antrag auch unter „Bemerkungen“ im Zeugnis erscheinen. Jedoch ist eine Anrechnung nach dem Bestehen nicht möglich, d.h. es ersetzt kein Modul aus dem B.Sc. Wirtschaftsinformatik.\n\nFalls Sie dies anerkannt haben wollen, müssen Sie vor der Belegung eine Zustimmung für die Teilnahme am betreffenden Modul und an dessen Prüfung mit dem Formular \"Hochschuleinheitliches Zustimmungsverfahren (Prüfungen in anderen \nFachbereichen)\" beim Prüfungsausschuss über das MND-Dekanat beantragen. Wie der konkrete Ablauf ist siehe FAQ-Liste. Damit werden alle Versuche, auch die Fehlversuche, erfasst. Eine \nspätere Anrechnung auf die Prüfungsversuche nur dann, wenn diese bestanden wurde, ist nicht möglich.\n",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "626fca8e62e659d4a3bbd17e",
+    "links": [],
+    "questions": [
+      "Muss man auch alle Wahlpflichtmodule vor dem BPP erfolgreich absolviert haben?"
+    ],
+    "tag": "BPP / Praktikum",
+    "responses": "Die vier Wahlpflichtmodule im B.Sc. WK sind im Curriculum Module wie jedes andere und gehören zu den Modulen des 4. bzw. 5. Semesters. Es gilt:\n\n„Zur Projektphase wird zugelassen, wer die Module der ersten fünf Semester bis auf 12 CrP erfolgreich abgeschlossen hat. Das Pflichtmodul Wirtschaftsinformatik-Seminar II (WK_1105) muss in jedem Fall erfolgreich abgeschlossen sein. Folglich ist eine Zulassung zur Projektphase nur möglich, wenn mindestens 141 CrP aus den ersten fünf Semestern erreicht wurden. Eine weitere Voraussetzung ist der Nachweis des Besuchs der zwei Informationsveranstaltungen (PO, Anlage3, §4))“.\n\nWeiterhin müssen Sie vor dem Start eine(n) THM-Professor/in als Betreuer wählen und das BPP anmelden, indem Sie bei Frau Langhans im MND-Dekanat mit dem entsprechenden Formular die Zulassung beantragen.\n\nWo kann ich weitere Auskünfte zu den Bereichen „BPP (Betriebliche Projektphase), Praxisphase“ erhalten?:\nAnsprechpartnerin im BPP-Referat des MND-Dekanats:\n- Frau Judith Bettina Langhans, Tel. +49 - (0) 60 31/604-401,\nE-Mail: judith.bettina.langhans@mnd.thm.de, Raum A2.1.01,\nSprechzeiten: Mo, Mi, Fr, 9.30 - 11.30 Uhr\n",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "626fc9df62e659d4a3bbd17d",
+    "links": [],
+    "questions": [
+      "Ich habe noch offene Module. Kann trotzdem direkt im Anschluss an die Abgabe der Masterarbeit das Kolloquium zur Thesis stattfinden?"
+    ],
+    "tag": "Abschlussarbeit (Zulassung, Ausgabe, externer Korreferent, Abgabe)",
+    "responses": "Nein, dass Kolloquium zur Masterarbeit kann erst dann stattfinden, wenn alle anderen Module erfolgreich absolviert wurden. ",
+    "scope": "master"
+  },
+  {
+    "_id": "626fbf24c83b4242f8ba1f6b",
+    "links": [],
+    "questions": [
+      "Status während der Projektphase BPP?",
+      "Wird die Vergütung während des BPP auf das BAföG angerechnet?"
+    ],
+    "tag": "BAföG / Rückmeldung / Exmatrikulation / Studienabschluss",
+    "responses": "Anlage 3, §7 fachspezifische PO: \"Während der Projektphase, die Bestandteil des Bachelorstudiums ist, bleibt die oder der\nStudierende an der Technische Hochschule Mittelhessen immatrikuliert. Die Studentin oder der\nStudent ist keine Praktikantin oder kein Praktikant im Sinne des Berufsbildungsgesetzes und\nunterliegt in der Projektstelle weder dem Betriebsverfassungsgesetz noch dem\nPersonalvertretungsgesetz. Andererseits ist die oder der Studierende an die Ordnungen der\nProjektstelle gebunden. Nach Maßgabe des Bundesausbildungsförderungsgesetzes (BAföG)\nbesteht während der Projektphase grundsätzlich Anspruch auf Ausbildungsförderung. Etwaige\nVergütungen der Projektstelle werden auf die Leistungen nach BAföG angerechnet.\"",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "626fbe7bc83b4242f8ba1f6a",
+    "links": [],
+    "questions": [
+      "Was beinhaltet das Projektseminar zum BPP?",
+      "Wie sieht die Betreuung zum BPP aus?",
+      "Was beinhaltet das Begleitstudium zum BPP?",
+      "Wann sind die Informationsveranstaltungen zum BPP zu besuchen?"
+    ],
+    "tag": "BPP / Praktikum",
+    "responses": "Anlage 3, §3 fachspezifische PO \"Der praktische Teil des Projektes, die Projektphase, wird von der Technischen Hochschule\nMittelhessen durch Begleitstudien in Form eines Projektseminars ergänzt.\n(1) Projektseminar\nBestandteile des Projektseminars sind:\n• der Besuch von sieben speziell ausgewiesenen Fach- und Praxisvorträgen, die per\nAushang durch das Dekanat bekannt gegeben werden und deren Besuch durch eine\nUnterschrift der in der Veranstaltung anwesenden Professoren/innen nachzuweisen\nsind,\n• Während der Projektphase führt die betreuende Professorin oder der betreuende\nProfessor in geeigneter Weise Fachgespräche oder seminaristische Vertiefungen zur\nfachlichen Begleitung durch.\n• ein Fachreferat/Präsentation i.d.R. am Ende der Projektphase über das zentrale Thema\nder Projektphase. Der Termin für das Fachreferat/Präsentation ist mit dem/der\nbetreuenden Professor/in abzustimmen.\n• ein schriftlicher Projektbericht am Ende des Praktikums mit Tätigkeitsmerkmalen,\nAnforderungsprofilen, theoretische Hintergründe, berufliche Perspektiven und\n10\nReflexionen während der Projektphase. Die Abgabe des\nschriftlichen Projektberichts, dessen Form und Umfang ist mit der betreuenden\nProfessorin oder dem betreuenden Professor abzustimmen.\n(2) Projektphase\nBestandteil der Projektphase ist:\n• der Besuch von zwei Informationsveranstaltungen (siehe § 4), vor Beginn des Praktikums\"",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "626fbd04c83b4242f8ba1f69",
+    "links": [],
+    "questions": [
+      "Kann ich im BPP schon das Thema der Bachelorarbeit bearbeiten?",
+      "Kann im Anschluss an das BPP die Thesis sofort starten?"
+    ],
+    "tag": "Abschlussarbeit (Zulassung, Ausgabe, externer Korreferent, Abgabe)",
+    "responses": "Anlage 3, §2 (4) fachspezifische PO: \"Die Projektphase soll auf die sich anschließende Bachelorarbeit vorbereiten.\" D.h. das Thema der Bachelorarbeit kann nicht während der BPP bearbeitet werden. Es können jedoch vorbereitende Tätigkeiten stattfinden, sodass bei vorhandenen Zulassungsvoraussetzungen gleich im Anschluss nach dem Projektseminar mit der Thesis im gleichen Themenumfeld gestartet werden kann.",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "626fbc48c83b4242f8ba1f68",
+    "links": [],
+    "questions": [
+      "In welchen Bereichen kann ich das BPP absolvieren?",
+      "Wo kann ich das betriebliche Praktikum durchführen?"
+    ],
+    "tag": "BPP / Praktikum",
+    "responses": "Anlage 3, §2 (3) fachspezifische PO: \"Die praktische Ausbildung innerhalb der Projektphase muss am angestrebten Berufsbild einer\nWirtschaftsinformatikerin oder eines Wirtschaftsinformatikers erfolgen. Das Praktikum kann\nin nachfolgenden Bereichen absolviert werden:\n- Softwarehäuser, Systemhäuser, Consulting und Beratungsunternehmen Software-\nBeratung und -Entwicklung\n- Banken und Versicherungen\n- Dienstleistungsbereich (z.B. Banken und Versicherungen)\n- Industrie und Handel\n- Öffentliche Verwaltung\nWeitere Bereiche können auf Antrag von der betreuenden Professorin oder dem betreuenden\nProfessor zugelassen werden.\"",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "626fbbd4c83b4242f8ba1f67",
+    "links": [],
+    "questions": [
+      "Was ist das Ziel der Projektphase?",
+      "Kann ich meine Werkstudententätigkeit ab dem 1. Semester anrechnen lassen?"
+    ],
+    "tag": "BPP / Praktikum",
+    "responses": "Anlage 3, §2 (1) fachspezifische PO: \" In der Projektphase soll die oder der Studierende studiengangsadäquate\nberufsqualifizierende Tätigkeiten zur Vorbereitung auf das künftige Berufsfeld ausüben.\"Anlage 3, §2 (2) fachspezifische PO:\n\"Die oder der Studierende soll eine praktische Ausbildung an fest umrissenen, konkreten\nProjekten erhalten, die zwingend eine Anwendung des im Bachelorstudium Erlernten\nverlangen.\" Daraus folgt, dass Werkstudierendentätigkeiten nicht vor dem Zeitpunkt des Vorhandenseins der Zulassungsvoraussetzungen zum BPP als praktische Tätigkeiten für das BPP möglich sind.",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "626fbad4c83b4242f8ba1f66",
+    "links": [],
+    "questions": [
+      "Erhalte ich eine BPP-Stelle von der Hochschule zugewiesen?",
+      "Muss ich mich selbst um einen Praktikumsplatz kümmern?"
+    ],
+    "tag":"BPP / Praktikum",
+    "responses": "Anlage 3, §1 (4) fachspezifische PO: \"Die Bewerbung um eine geeignete Projektstelle obliegt der oder dem Studierenden. Sie oder\ner hat das Recht, eine Projektstelle vorzuschlagen. Über eine Ablehnung der Projektstelle\nentscheidet der Prüfungsausschuss.\"",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "626fb9ddc83b4242f8ba1f65",
+    "links": [],
+    "questions": [
+      "Mit welchem Gewicht geht die Bachelorarbeit und das Kolloquium  in die Gesamtnote ein?",
+      "Ist die Abschlussarbeit höher gewichtet?"
+    ],
+    "tag": "Abschlussarbeit (Zulassung, Ausgabe, externer Korreferent, Abgabe)",
+    "responses": "§6 (4) fachspezifische PO. \"Die Bewertung der Bachelorarbeit mit Kolloquium fließt mit 150 % Gewicht in die\nGesamtnote ein.\"",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "626fb8be62e659d4a3bbd17a",
+    "links": [],
+    "questions": [
+      "Findet ein Kolloquium zur Bachelorarbeit statt?",
+      " Welchen CrP-Umfang hat das Bachelor-Kolloquium?"
+    ],
+    "tag": "Abschlussarbeit (Zulassung, Ausgabe, externer Korreferent, Abgabe)",
+    "responses": "§6 (3) fachspezifische PO: \"Mit einem Kolloquium zur Bachelorarbeit muss die oder der Studierende ihre oder seine\nArbeit fachlich präsentieren und verteidigen. Der erfolgreiche Abschluss des Kolloquiums\nergibt 3 CrP. Die Bewertung des Kolloquiums geht mit ihrer CrP-Gewichtung anteilig in\ndie Note der Bachelorarbeit ein. Ein Vortrag als Teil des Kolloquiums kann öffentlich\ngehalten werden. Im Übrigen gilt § 17 der Allgemeinen Bestimmungen (Teil I der\nPrüfungsordnung).\"",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "626fb85562e659d4a3bbd179",
+    "links": [],
+    "questions": [
+      "Welchen Umfang hat die Bachelorarbeit zeitlich?",
+      "Welchen CrP-Umfang weist die Bachelorarbeit auf?"
+    ],
+    "tag": "Abschlussarbeit (Zulassung, Ausgabe, externer Korreferent, Abgabe)",
+    "responses": "§6 (2) fachspezifische PO: \"Die Bachelorarbeit hat einen Umfang von 12 Creditpoints (CrP). Der zeitliche Umfang der\nBachelorarbeit beträgt drei Monate (vgl. § 18 Abs. 1Teil I der Prüfungsordnung).\"",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "626fb5f162e659d4a3bbd175",
+    "links": [],
+    "questions": [
+      "Kann ich Module aus anderen Studiengängen belegen und einbringen?"
+    ],
+    "tag": "Leistungsanerkennung (anderer Studiengang, andere Hochschule, Ausland)",
+    "responses": "§4 (1) fachspezifische PO: \"Die zu erbringenden Module sind grundsätzlich aus dem Angebot des\nBachelorstudiengangs „Wirtschaftsinformatik“ nach Anlage 1 zu absolvieren. Ersatzweise\nkönnen identische oder gleichwertige Module auch aus dem Modulangebot anderer\nStudiengänge der Technischen Hochschule Mittelhessen erbracht werden. Dabei\nentstandene Fehlversuche werden angerechnet. §§ 11 bis 14 der Allgemeinen\nBestimmungen (Teil I der Prüfungsordnung) sind anzuwenden.\"",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "626fb53362e659d4a3bbd174",
+    "links": [],
+    "questions": [
+      "In welcher Sprache findet der Studiengang Bachelor Wirtschaftsinformatik statt?",
+      "Findet der Studiengang in Deutsch oder Englisch statt?"
+    ],
+    "tag": "Modulhandbuch",
+    "responses": "§3 (3) fachspezifische PO: \"Lehr- und Prüfungssprache ist Deutsch, soweit dies in der Modulbeschreibung nicht\nanders angegeben ist. Die Art der Prüfung ist im Modulhandbuch (Anlage 2) festgelegt.\"",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "626fb4d1c83b4242f8ba1f61",
+    "links": [],
+    "questions": [
+      "Wie lange ist die Regelstudienzeit im Bachelorstudiengang Wirtschaftsinformatik?",
+      "Regeldauer des Bachelor - Studiengangs Wirtschaftsinformatik?",
+      "Dauer des Studiums?",
+      "wie lange dauert das Studium in der Regel?"
+    ],
+    "tag": "Prüfungsordnung",
+    "responses": "§3 (1) fachspezifische PO: \"Die Regelstudienzeit im Bachelorstudiengang „Wirtschaftsinformatik“ beträgt 7 Semester, das entspricht 3,5 Studienjahren. Für den erfolgreichen Abschluss der Bachelorprüfung sind die in der Modulübersicht aufgeführten Module erfolgreich abzuschließen.\"",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "626fb446c83b4242f8ba1f5f",
+    "links": [],
+    "questions": [
+      "Was ist das Studienziel des Studiengangs Bachelor Wirtschaftsinformatik?",
+      "Was sind die Inhalte des Studiengangs Wirtschaftsinformatik?"
+    ],
+    "tag": "Allgemeinen Bestimmungen für Bachelorprüfungen",
+    "responses": "§1 (2) fachspezif. PO: \"Studienziel des Bachelorstudiengangs „Wirtschaftsinformatik“ ist die Vermittlung\nberufsqualifizierender Fähigkeiten zum Entwickeln betrieblicher Informationssysteme\nunter softwaretechnischen und ökonomischen Gesichtspunkten. Die Absolventinnen und\nAbsolventen sind in der Lage, in allen Phasen der Erstellung dieser betrieblichen Systeme\nmitzuarbeiten bzw. gestalterisch zu wirken. Hierzu gehören neben der\ngeschäftsprozessorientierten Entwicklung neuer Systeme auch die Anpassung und das\nCustomizing bestehender Lösungen im Besonderen auch von Standardsoftware. Diese\nQualifikation umfasst neben der Softwaretechnik Kenntnisse über den Aufbau und die\nStruktur von Systemsoftware sowie von lokalen und weltweiten Kommunikationssystemen\nund Netzwerken. Darüber hinaus werden im Studiengang fundierte betriebswirtschaftliche\nZusammenhänge vermittelt und die Fähigkeit zur Teamarbeit trainiert.\"",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "626ccf6c62e659d4a3bbd165",
+    "links": [],
+    "questions": [
+      "Wie lautet der Abschluss des Studiengangs Wirtschaftsinformatik?",
+      " Wie lautet der zu erlangende akademische Grad?",
+      "Welchen Bachelorgrad erhalte ich im Studiengang Wirtschaftsinformatik?"
+    ],
+    "tag": "Allgemeinen Bestimmungen für Bachelorprüfungen",
+    "responses": "§ 2 Bachelorgrad und –urkunde\nBei erfolgreichem Abschluss des Studiums im Bachelorstudiengang Wirtschaftsinformatik wird\nder akademische Grad „Bachelor of Science“, Kurzform „B. Sc.“, mit Urkunde nach Anlage 5\nverliehen.",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "626ccc36c83b4242f8ba1f44",
+    "links": [],
+    "questions": [
+      "Wie lange ist die Bearbeitungszeit der Bachelorarbeit?",
+      "Wie lange dauert die Bachelorthesis? ",
+      "Wie lange dauert die Abschlussarbeit?",
+      "Wie lange dauert die Thesis?",
+      "Wieviele Monate dauert die Abschlussarbeit?"
+    ],
+    "tag": "Abschlussarbeit (Zulassung, Ausgabe, externer Korreferent, Abgabe)",
+    "responses": "§17 (5) der Allg. PO der THM: \"Die Bearbeitung der Bachelorarbeit erfolgt studienbegleitend. Der Bearbeitungszeitraum darf drei\nMonate nicht überschreiten.\" Die Bachelorarbeit kann zu jedem Zeitpunkt starten, wenn die Zulassungsvoraussetzungen erfüllt sind.",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "62472e90dfd1f1c0e65f624f",
+    "links": [
+      "mailto:christine.fricke-weiss@mnd.thm.de",
+      "mailto:stefanie.walter@mnd.thm.de",
+      "mailto:dekanat@mnd.thm.de"
+    ],
+    "questions": [
+      "Wo kann ich weitere Auskünfte zu den Bereichen „Rückmeldung, Exmatrikulation, Erstellung der Abschlussdokumente, Checkliste zum Studienabschluss“ erhalten?"
+    ],
+    "tag": "Ansprechpartner",
+    "responses": "Ansprechpartnerinnen im MND-Dekanat:\nFrau Christine Fricke-Weiß, Tel. +49 - (0) 60 31/604-400,\nE-Mail: christine.fricke-weiss@mnd.thm.de, Sprechzeiten: Di.- Do., 9.30 - 11.30 Uhr\n\nFrau Stefanie Walter, Tel. +49 - (0) 60 31/604-403,\nE-Mail: stefanie.walter@mnd.thm.de, Sprechzeiten: Mo, Di, Do, Fr, 9.30 - 11.30 Uhr\n\nFachbereich MND\nWilhelm-Leuschner-Str. 13\nD - 61169 Friedberg\nE-Mail: dekanat@mnd.thm.de\nRaum A2.1.01\nFax +49 - (0) 60 31/604-185",
+    "scope": "master"
+  },
+  {
+    "_id": "62472e37dfd1f1c0e65f624e",
+    "links": [
+      "https://www.thm.de/mnd/studium/service/edokumente/studiengangsuebergreifend e-dokumente-1"
+    ],
+    "questions": [
+      "Soll / muss ich die Checkliste abgeben? Ich war nicht im Besitz eines Schlüssels."
+    ],
+    "tag": "BAföG / Rückmeldung / Exmatrikulation / Studienabschluss",
+    "responses": "Ja, die Checkliste zum Studienabschluss muss uns auf jeden Fall vorliegen.\nUnter dem folgenden Link finden Sie die Checkliste.",
+    "scope": "master"
+  },
+  {
+    "_id": "62472e02dfd1f1c0e65f624d",
+    "links": [],
+    "questions": [
+      "Wie lange dauert es, bis ich meine kompletten Abschlussunterlagen erhalte?"
+    ],
+    "tag": "BAföG / Rückmeldung / Exmatrikulation / Studienabschluss",
+    "responses": "In der Regel werden die Abschlussdokumente zeitnah erstellt. Bis alle erforderlichen Unterschriften vorliegen (Präsident, Dekan, Prüfungsausschuss-Vorsitzender) kann dies bis zu drei Wochen dauern. Danach erhalten Sie unaufgefordert eine Nachricht, dass die Unterlagen zur Abholung bereit liegen bzw. wir die Abschlussdokumente per Einschreiben / Rückschein versenden.",
+    "scope": "master"
+  },
+  {
+    "_id": "62472dd9dfd1f1c0e65f624c",
+    "links": [
+      "http://www.thm.de/site/studium/sie-beenden-ihr-studium/exmatrikulation.html",
+      "mailto:an studiensekretariat@thm.de"
+    ],
+    "questions": [
+      "Soll / muss ich mich exmatrikulieren?"
+    ],
+    "tag": "BAföG / Rückmeldung / Exmatrikulation / Studienabschluss",
+    "responses": "Mit der Exmatrikulation endet Ihre Mitgliedschaft bei der Hochschule. Die Exmatrikulation ist nur notwendig, wenn Sie die Hochschule endgültig verlassen und nicht bei einem Studiengangwechsel innerhalb der THM. Nach erfolgreichem Studienabschluss oder nach Studienabbruch müssen Sie sich exmatrikulieren. Die Exmatrikulation auf eigenen Antrag ist jederzeit möglich. Sie wirkt in der Regel zum Ende eines Semesters. Auf ausdrücklichen Wunsch ist eine Exmatrikulation auch zu einem bestimmten Stichtag möglich, jedoch nicht rückwirkend.\n• Für die Exmatrikulation verwenden Sie bitte das Antragsformular\nfür Gießen/Wetzlar oder Friedberg.\n• Sie können die Exmatrikulation per Post beantragen oder\n• den vollständig ausgefüllten und unterschriebenen Antrag eingescannt per E-Mail an studiensekretariat@thm.de senden.\n• Falls Sie sich zum Semesterende exmatrikulieren wollen aber bereits zum Folgesemester zurückgemeldet sind, bitte noch zusätzlich den Antrag auf Rückzahlung mitschicken.\n• Sofern Sie noch im Besitz von Eigentumsgegenständen der Hochschule sind (Bücher, Schlüssel, Geräte etc.), geben Sie diese bitte vor der Exmatrikulation ab.\n• Exmatrikulationsanträge sind direkt beim Studiensekretariat (A3.0.13) zu stellen und stehen zum Herunterladen hier zur\nVerfügung",
+    "scope": "master"
+  },
+  {
+    "_id": "62472d91dfd1f1c0e65f624b",
+    "links": [],
+    "questions": [],
+    "tag": "BAföG / Rückmeldung / Exmatrikulation / Studienabschluss",
+    "responses": "Wir raten immer sich zurückzumelden, sofern der Abschluss kurz vor Semesterende liegt. Bedenken sollten Sie hierbei Vorlaufzeiten der Dozenten, Terminkoordination des Kolloquiums und Krankheit. Sollten unvorhersehbare Gründe eine zeitliche Verzögerung nach sich ziehen, wären Sie für das Folgesemester nicht mehr immatrikuliert.\nBei einem erfolgreichen Abschluss des Studiums und einer bereits erfolgten Rückmeldung / Zahlung der Semestergebühren können Sie nachträglich einen Antrag auf Rückerstattung an das Studiensekretariat der THM stellen.\nErfolgt keine fristgerechte Rückmeldung für das Folgesemester und das Studium verzögert sich zeitlich, dann sind Sie nicht immatrikuliert und können das Studium nicht beenden.",
+    "scope": "master"
+  },
+  {
+    "_id": "62472d65dfd1f1c0e65f624a",
+    "links": [
+      "mailto:christine.fricke-weiss@mnd.thm.de",
+      "mailto:stefanie.walter@mnd.thm.de"
+    ],
+    "questions": [],
+    "tag": "Ansprechpartner",
+    "responses": "Ansprechpartnerinnen im MND-Dekanat:\nFrau Christine Fricke-Weiß, Tel. +49 - (0) 60 31/604-400,\nE-Mail: christine.fricke-weiss@mnd.thm.de, Sprechzeiten: Di.- Do., 9.30 - 11.30 Uhr\n\nFrau Stefanie Walter, Tel. +49 - (0) 60 31/604-403,\nE-Mail: stefanie.walter@mnd.thm.de, Sprechzeiten: Mo, Di, Do, Fr, 9.30 - 11.30 Uhr\n\nFachbereich MND\nWilhelm-Leuschner-Str. 13\nD - 61169 Friedberg\nE-Mail: dekanat@mnd.thm.de\nRaum A2.1.01\nFax +49 - (0) 60 31/604-185",
+    "scope": "master"
+  },
+  {
+    "_id": "62472d26dfd1f1c0e65f6249",
+    "links": [],
+    "questions": [
+      "Ich möchte eine Prüfung in einem anderen Studiengang / Fachbereich absolvieren. Wie ist vorzugehen?"
+    ],
+    "tag": "Leistungsanerkennung (anderer Studiengang, andere Hochschule, Ausland)",
+    "responses": "Es ist das Hochschuleinheitliches Zustimmungsverfahren (Prüfungen in anderen Fachbereichen) anzuwenden. \nDas Vorgehen ist hier beschrieben im unten stehenden Link beschrieben.\nVerwenden Sie bitte den dort auf der WWW-Seite hinterlegten Vordruck\n„Zustimmungsverfahren“. Es empfiehlt sich zunächst die Zustimmung des Prüfers/der Prüferin des betreffenden Moduls einzuholen und dann erst dem Prüfungsausschussvorsitzenden vorzulegen.",
+    "scope": "master"
+  },
+  {
+    "_id": "62472cb5dfd1f1c0e65f6248",
+    "links": [],
+    "questions": [
+      "Ich habe zum Start meines Masterstudiums Wirtschaftsinformatik Auflagemodule erhalten. Soweit ich das verstanden habe, muss ich diese bis zu meiner Masterarbeit absolvieren, jedoch nicht sofort. Allerdings habe ich im E-Campus gesehen, dass ich automatisch für Klausuren ohne meine Kenntnis angemeldet wurde. Könnten Sie mir bitte weiterhelfen, um mich von diesen Klausuren abzumelden?"
+    ],
+    "tag": "Prüfungen (An-, Abmeldung, Zweitprüfer, Bonuspunkte, Joker-Einsatz)",
+    "responses": "Es handelt sich hierbei um eine \"Zwangsanmeldung\". Die Auflagen, die Sie im mit dem\nZulassungsbescheid für den Masterstudiengang Wirtschaftsinformatik erhalten haben\nmüssen Sie im Laufe des Studiums M.Sc. Wirtschaftsinformatik absolvieren.\nZu welchem Zeitpunkt Sie die Auflagenmodule absolvieren obliegt Ihnen. Eine\nexplizite An- bzw. Abmeldung ist nicht vonnöten.\n\nGemäß §1 (3) der PO gilt: „(…) Mit der Masterarbeit darf erst begonnen werden, wenn der Nachweis über das Erbringen der fehlenden Leistungen vorliegt. (…)“",
+    "scope": "master"
+  },
+  {
+    "_id": "62472c64dfd1f1c0e65f6247",
+    "links": [],
+    "questions": [
+      "Ich muss noch 30 CrP zusätzlich als Auflagen absolvieren. Diese möchte ich aus dem Bachelor Wirtschaftsinformatik erbringen. In den Online-Diensten (E-Campus) kann ich mich jedoch nicht zu Prüfungen zu den Bachelormodulen anmelden. Wie ist vorzugehen?"
+    ],
+    "tag": "Zulassung zum Master (Auflagen) / Übergang aus 6-semestrigen Bachelorstudiengang (30 CrP-Auflagen)",
+    "responses": "Bezüglich des Antrags (Hochschuleinheitliches Zustimmungsverfahren) ist die Vorgehensweise bei \"internen Modulen“ aus dem B.Sc. Wirtschaftsinformatik vereinfacht.\n\nEs ist keine Zustimmung durch den PA-Vorsitzenden vonnöten, da eine generelle Regelung existiert, dass man als Master-WK-Studierender die nötigen 30 CrP mit Modulen aus dem BSc WK erbringen kann (siehe \"Info-Schreiben\" auf der PA-Homepage - über meine WWW-Seite erreichbar).\n\nSie müssen sich jeweils nur mit dem Dozenten abstimmen, um eine Teilnahme an dem Modul zu gewährleisten - Kapazitätsgründe könnten z.B. dagegensprechen. Die Leistungsbewertung geht dann nach der Prüfung von dem Dozenten mit dem Formular an das MND-Sekretariat, das die Notenerfassung in HIS vornimmt.\n\nDiese Abstimmung, die eine Online-Anmeldung ersetzt, muss jedoch innerhalb der Anmeldefrist zu den Prüfungen erfolgen. Weiterhin müssen Sie beachten, dass das betreffende Modul keine inhaltlichen Überscheidungen mit schon im Bachelorstudiengang absolvierten Module aufweist (diese Prüfung erfolgt erst durch den PA bei der Antragsstellung mit dem 30 CrP-Formular vor der Anmeldung zur Masterthesis). Falls Sie Überschneidungen vermuten, sollten Sie sich vorab zu den Sprechstundenterminen an den PA-Vorsitzenden wenden",
+    "scope": "master"
+  },
+  {
+    "_id": "62472bd0dfd1f1c0e65f6246",
+    "links": [
+      "mailto:christine.fricke-weiss@mnd.thm.de",
+      "mailto:stefanie.walter@mnd.thm.de"
+    ],
+    "questions": [
+      "Wo kann ich weitere Auskünfte zu den Bereichen „Anmeldung zu Prüfungen, Klausuren, KoV, JokerEinsatz möglich?“ erhalten?"
+    ],
+    "tag": "Ansprechpartner",
+    "responses": "Ansprechpartnerinnen im MND-Dekanat:\nFrau Christine Fricke-Weiß, Tel. +49 - (0) 60 31/604-400,\nE-Mail: christine.fricke-weiss@mnd.thm.de, Sprechzeiten: Di.- Do., 9.30 - 11.30 Uhr\n\nFrau Stefanie Walter, Tel. +49 - (0) 60 31/604-403,\nE-Mail: stefanie.walter@mnd.thm.de, Sprechzeiten: Mo, Di, Do, Fr, 9.30 - 11.30 Uhr\n\nFachbereich MND\nWilhelm-Leuschner-Str. 13\nD - 61169 Friedberg\nE-Mail: dekanat@mnd.thm.de\nRaum A2.1.01\nFax +49 - (0) 60 31/604-185",
+    "scope": "master"
+  },
+  {
+    "_id": "62472ba1dfd1f1c0e65f6245",
+    "links": [
+      "mailto:info@thm.de",
+      "tel:060316047777"
+    ],
+    "questions": [
+      "Ich habe meine TANListe verloren. Meine TAN-Liste ist gesperrt. Ich benötige eine neue TAN-Liste, um mich zur Prüfung anmelden zu können. Wo kann ich diese erhalten?"
+    ],
+    "tag": "Ansprechpartner",
+    "responses": "Eine neue TAN-Liste erhalten Sie an dem InfoCenter in Friedberg:\nMo-Fr, 7:30 bis 16:00 Uhr, E-Mail: info@thm.de oder Tel. 06031-604-7777",
+    "scope": "master"
+  },
+  {
+    "_id": "62472b64dfd1f1c0e65f6244",
+    "links": [
+      "mailto:christine.fricke-weiss@mnd.thm.de",
+      "mailto:stefanie.walter@mnd.thm.de",
+      "mailto:dekanat@mnd.thm.de"
+    ],
+    "questions": [
+      "Wo kann ich weitere Auskünfte zu den Bereichen „Prüfungen in anderen Fachbereichen“ erhalten?"
+    ],
+    "tag": "Ansprechpartner",
+    "responses": "Ansprechpartnerinnen im MND-Dekanat:\nFrau Christine Fricke-Weiß, Tel. +49 - (0) 60 31/604-400,\nE-Mail: christine.fricke-weiss@mnd.thm.de, Sprechzeiten: Di.- Do., 9.30 - 11.30 Uhr\n\nFrau Stefanie Walter, Tel. +49 - (0) 60 31/604-403,\nE-Mail: stefanie.walter@mnd.thm.de, Sprechzeiten: Mo, Di, Do, Fr, 9.30 - 11.30 Uhr\n\nFachbereich MND\nWilhelm-Leuschner-Str. 13\nD - 61169 Friedberg\nE-Mail: dekanat@mnd.thm.de\nRaum A2.1.01\nFax +49 - (0) 60 31/604-185",
+    "scope": "master"
+  },
+  {
+    "_id": "62472b0edfd1f1c0e65f6243",
+    "links": [
+      "mailto:christine.fricke-weiss@mnd.thm.de",
+      "mailto:stefanie.walter@mnd.thm.de",
+      "mailto:dekanat@mnd.thm.de"
+    ],
+    "questions": [
+      "Wo kann ich weitere Auskünfte zu den Bereichen „Anmeldung der Abschlussarbeit, Masterarbeit, externer Korreferent, Verlängerung Bearbeitungszeit der Abschlussarbeit, Abgabe der Masterarbeit“ erhalten?"
+    ],
+    "tag": "Ansprechpartner",
+    "responses": "Ansprechpartnerinnen im MND-Dekanat:\nFrau Christine Fricke-Weiß, Tel. +49 - (0) 60 31/604-400,\nE-Mail: christine.fricke-weiss@mnd.thm.de, Sprechzeiten: Di.- Do., 9.30 - 11.30 Uhr\n\nFrau Stefanie Walter, Tel. +49 - (0) 60 31/604-403,\nE-Mail: stefanie.walter@mnd.thm.de, Sprechzeiten: Mo, Di, Do, Fr, 9.30 - 11.30 Uhr\n\nFachbereich MND\nWilhelm-Leuschner-Str. 13\nD - 61169 Friedberg\nE-Mail: dekanat@mnd.thm.de\nRaum A2.1.01\nFax +49 - (0) 60 31/604-185",
+    "scope": "master"
+  },
+  {
+    "_id": "62472975dfd1f1c0e65f6241",
+    "links": [
+      "mailto:harald.ritz@mni.thm.de",
+      "mailto:dekanat@mnd.thm.de",
+      "tel:+4960316047620"
+    ],
+    "questions": [
+      "Wo kann ich weitere Auskünfte zu den Ansprechpartner: - Prof. Dr. Harald Ritz (Vorsitzender des Prüfungsausschusses B.Sc. Bereichen „Prüfungsausschuss Wirtschaftsinformatik, Prüfungsordnung, Modulhandbuch, Zweitprüfer“ erhalten?"
+    ],
+    "tag": "Ansprechpartner",
+    "responses": "Ansprechpartner:\nProf. Dr. Harald Ritz (Vorsitzender des Prüfungsausschusses B.Sc. Wirtschaftsinformatik), \nTel. +49 - (0) 60 31/604-7620, \nRaum B2.0.02, \nE-Mail: harald.ritz@mni.thm.de, \nSprechzeiten: siehe Homepage.\n\nc/o Fachbereich MND\nWilhelm-Leuschner-Str. 13\nD - 61169 Friedberg\nE-Mail: dekanat@mnd.thm.de\nRaum A2.1.01\nFax +49 - (0) 60 31/604-185",
+    "scope": "master"
+  },
+  {
+    "_id": "62472889dfd1f1c0e65f6240",
+    "links": [
+      "mailto:christine.fricke-weiss@mnd.thm.de",
+      "mailto:stefanie.walter@mnd.thm.de",
+      "mailto:dekanat@mnd.thm.de"
+    ],
+    "questions": [
+      "Wo kann ich weitere Auskünfte zu den Bereichen „Zulassung zum Master, Übergang aus 6-semestrigen Bachelor in Master“ erhalten?"
+    ],
+    "tag": "Ansprechpartner",
+    "responses": "Ansprechpartnerinnen im MND-Dekanat:\nFrau Christine Fricke-Weiß, Tel. +49 - (0) 60 31/604-400,\nE-Mail: christine.fricke-weiss@mnd.thm.de, \nSprechzeiten: Di.- Do., 9.30 - 11.30 Uhr\n\nFrau Stefanie Walter, Tel. +49 - (0) 60 31/604-403,\nE-Mail: stefanie.walter@mnd.thm.de, \nSprechzeiten: Mo, Di, Do, Fr, 9.30 - 11.30 Uhr\n\nFachbereich MND\nWilhelm-Leuschner-Str. 13\nD - 61169 Friedberg\nE-Mail: dekanat@mnd.thm.de\nRaum A2.1.01\nFax +49 - (0) 60 31/604-185",
+    "scope": "master"
+  },
+  {
+    "_id": "6247280730ae0b9171b6b404",
+    "links": [
+      "mailto:christine.fricke-weiss@mnd.thm.de",
+      "mailto: stefanie.walter@mnd.thm.de",
+      "mailto:dekanat@mnd.thm.de"
+    ],
+    "questions": [
+      "Wo kann ich weitere Auskünfte zu den Bereichen „Anerkennung von Leistungen, Studiengangwechsel“ erhalten?"
+    ],
+    "tag": "Ansprechpartner",
+    "responses": "Ansprechpartnerinnen im MND-Dekanat:\nFrau Christine Fricke-Weiß, Tel. +49 - (0) 60 31/604-400, E-Mail:\nchristine.fricke-weiss@mnd.thm.de, Sprechzeiten: Di.- Do., 9.30 - 11.30 Uhr\n\nFrau Stefanie Walter, Tel. +49 - (0) 60 31/604-403, E-Mail:\nstefanie.walter@mnd.thm.de, Sprechzeiten: Mo, Di, Do, Fr, 9.30 - 11.30 Uhr\n\nFachbereich MND\nWilhelm-Leuschner-Str. 13\nD - 61169 Friedberg\nE-Mail: dekanat@mnd.thm.de\nRaum A2.1.01\nFax +49 - (0) 60 31/604-185",
+    "scope": "master"
+  },
+  {
+    "_id": "624727badfd1f1c0e65f623f",
+    "links": [],
+    "questions": [
+      "Was muss ich einreichen, um die im Auslandssemester erbrachten Leistungen anerkannt zu bekommen?"
+    ],
+    "tag": "Leistungsanerkennung (anderer Studiengang, andere Hochschule, Ausland)",
+    "responses": "Folgende Unterlagen sind im MND-Dekanat einzureichen, damit ihr Antrag auf Anerkennung von Leistungen aus dem Auslandssemester bearbeitet werden kann:\n\n• Academic Transcript\n• Changed Learning Agreement sowie\n• Nachweis der Dauer des Auslandsaufenthaltes\n• Leistungsnachweis\n• Formular zur Anerkennung von Prüfungsleistungen",
+    "scope": "master"
+  },
+  {
+    "_id": "624726d130ae0b9171b6b403",
+    "links": [
+      "mailto:christine.fricke-weiss@mnd.thm.de",
+      "mailto:jutta.frommel@mnd.thm.de",
+      "mailto:stefanie.walter@mnd.thm.de",
+      "mailto:dekanat@mnd.thm.de"
+    ],
+    "questions": [
+      "Wo kann ich weitere Auskünfte zu den Bereichen „BAföGLeistungsbescheinigung, Rückmeldung, Exmatrikulation, Erstellung der Abschlussdokumente, Checkliste zum Studienabschluss“ erhalten?"
+    ],
+    "tag": "Ansprechpartner",
+    "responses": "Ansprechpartnerinnen im MND-Dekanat:\nFrau Christine Fricke-Weiß, Tel. +49 - (0) 60 31/604-400, E-Mail:\nchristine.fricke-weiss@mnd.thm.de, Sprechzeiten: Di.- Do., 9.30-11.30 Uhr\n\nFrau Jutta Frommel, Tel. +49 - (0) 60 31/604-402, E-Mail:\njutta.frommel@mnd.thm.de, Sprechzeiten: Mi, Fr, 9.30 - 11.30 Uhr\n\nFrau Stefanie Walter, Tel. +49 - (0) 60 31/604-403, E-Mail:\nstefanie.walter@mnd.thm.de, Sprechzeiten: Mo, Di, Do, Fr 9.30-11.30 Uhr\n\nFachbereich MND\nWilhelm-Leuschner-Str. 13\nD - 61169 Friedberg\nE-Mail: dekanat@mnd.thm.de\nRaum A2.1.01\nFax +49 - (0) 60 31/604-185",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6247267530ae0b9171b6b402",
+    "links": [
+      "https://www.thm.de/mnd/studium/service/edokumente/studiengangsue bergreifende-dokumente-1"
+    ],
+    "questions": [
+      "Soll / muss ich die Checkliste abgeben? Ich war nicht im Besitz eines Schlüssels."
+    ],
+    "tag": "BAföG / Rückmeldung / Exmatrikulation / Studienabschluss",
+    "responses": "Ja, die Checkliste zum Studienabschluss muss uns auf jeden Fall vorliegen.\nUnter dem folgenden Link finden Sie die Checkliste.",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6247264c30ae0b9171b6b401",
+    "links": [],
+    "questions": [
+      "Wie lange dauert es, bis ich meine kompletten Abschlussunterlagen erhalte?"
+    ],
+    "tag": "1BAföG / Rückmeldung / Exmatrikulation / Studienabschluss",
+    "responses": "In der Regel werden die Abschlussdokumente zeitnah erstellt. Bis alle erforderlichen Unterschriften vorliegen (Präsident, Dekan, Prüfungsausschuss-Vorsitzender) kann dies bis zu drei Wochen dauern. Danach erhalten Sie unaufgefordert eine Nachricht, dass die Unterlagen zur Abholung bereit liegen bzw. wir die Abschlussdokumente per Einschreiben / Rückschein versenden.",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "62472629dfd1f1c0e65f623e",
+    "links": [
+      "http://www.thm.de/site/studium/sie-beenden-ihrstudium/exmatrikulation.html"
+    ],
+    "questions": [
+      "Soll / muss ich mich exmatrikulieren?"
+    ],
+    "tag": "BAföG / Rückmeldung / Exmatrikulation / Studienabschluss",
+    "responses": "Mit der Exmatrikulation endet Ihre Mitgliedschaft bei der Hochschule. Die Exmatrikulation ist nur notwendig, wenn Sie die Hochschule endgültig verlassen und nicht bei einem Studiengangwechsel innerhalb der THM. Nach erfolgreichem Studienabschluss oder nach Studienabbruch müssen Sie sich exmatrikulieren. Die Exmatrikulation auf eigenen Antrag ist jederzeit möglich. Sie wirkt in der Regel zum Ende eines Semesters. Auf ausdrücklichen Wunsch ist eine Exmatrikulation auch zu einem bestimmten Stichtag möglich, jedoch nicht rückwirkend.\n• Für die Exmatrikulation verwenden Sie bitte das Antragsformular\nfür Gießen/Wetzlar oder Friedberg.\n• Sie können die Exmatrikulation per Post beantragen oder\n• den vollständig ausgefüllten und unterschriebenen Antrag eingescannt per E-Mail an studiensekretariat@thm.de senden.\n• Falls Sie sich zum Semesterende exmatrikulieren wollen aber bereits zum Folgesemester zurückgemeldet sind, bitte noch zusätzlich den Antrag auf Rückzahlung mitschicken.\n• Sofern Sie noch im Besitz von Eigentumsgegenständen der Hochschule sind (Bücher, Schlüssel, Geräte etc.), geben Sie diese bitte vor der Exmatrikulation ab.\n• Exmatrikulationsanträge sind direkt beim Studiensekretariat (A3.0.13) zu stellen und stehen zum Herunterladen hier zur\nVerfügung",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "624725cd30ae0b9171b6b400",
+    "links": [],
+    "questions": [
+      "Soll ich mich für das Folgesemester zurückmelden? Ich beabsichtige mein Studium noch in diesem Semester abzuschließen"
+    ],
+    "tag": "BAföG / Rückmeldung / Exmatrikulation / Studienabschluss",
+    "responses": "Wir raten immer sich zurückzumelden, sofern der Abschluss kurz vor Semesterende liegt. Bedenken sollten Sie hierbei Vorlaufzeiten der Dozenten, Terminkoordination des Kolloquiums und Krankheit. Sollten unvorhersehbare Gründe eine zeitliche Verzögerung nach sich ziehen, wären Sie für das Folgesemester nicht mehr immatrikuliert.\nBei einem erfolgreichen Abschluss des Studiums und einer bereits erfolgten Rückmeldung / Zahlung der Semestergebühren können Sie nachträglich einen Antrag auf Rückerstattung an das Studiensekretariat der THM stellen.\nErfolgt keine fristgerechte Rückmeldung für das Folgesemester und das Studium verzögert sich zeitlich, dann sind Sie nicht immatrikuliert und können das Studium nicht beenden.",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6247258530ae0b9171b6b3ff",
+    "links": [
+      "https://www.thm.de/mnd/fachbereich/organisation/dokumente/formbla tt-05-leistungsbescheinigung-nach-48-bafoeg/download"
+    ],
+    "questions": [
+      "Ich benötige eine Leistungsbescheinigung nach §48 BAföG. Wie muss ich vorgehen?"
+    ],
+    "tag": "BAföG / Rückmeldung / Exmatrikulation / Studienabschluss",
+    "responses": "Um eine Leistungsbescheinigung nach §48 BAföG zu erhalten, können sie hier das Formular herunterladen, in welchem schon Studiengang und Hochschule eingetragen sind.\n\nAm besten Sie füllen Sie die Datei digital aus. Insbesondere sollte die Angabe nicht fehlen bis zu welchem Fachsemester die Bestätigung erfolgen soll. In der Regel ist es das 5. Fachsemester (evtl. beim BAföGAmt nachfragen).\n\nAnschließend geben Sie einen unterschriebenen Ausdruck des Formulars im MND-Sekretariat ab. Die Abgabe kann digital erfolgen. \n\nDas Sekretariat erstellt Ihre Leistungsübersicht und gibt die Unterlagen an den PA-Vorsitzenden zur Unterschrift weiter. Die Bescheinigung wird Ihnen anschließend per E-Mail zugesandt. Je nach Verfügbarkeit kann der Vorgang einige Tage in Anspruch nehmen.",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "624724fe30ae0b9171b6b3fe",
+    "links": [
+      "mailto:christine.fricke-weiss@mnd.thm.de",
+      "mailto:stefanie.walter@mnd.thm.de",
+      "mailto:dekanat@mnd.thm.de"
+    ],
+    "questions": [
+      "Wo kann ich weitere Auskünfte zu den Bereichen „Anmeldungen zu Prüfungen, Klausuren, KoV, Einsatz eines Jokers“ erhalten?"
+    ],
+    "tag": "Ansprechpartner",
+    "responses": "Ansprechpartnerinnen im MND-Dekanat:\nFrau Christine Fricke-Weiß, Tel. +49 - (0) 60 31/604-400, \nE-Mail: christine.fricke-weiss@mnd.thm.de, Sprechzeiten: Di.- Do., 9.30-11.30 Uhr\n\nFrau Stefanie Walter, Tel. +49 - (0) 60 31/604-403, \nE-Mail: stefanie.walter@mnd.thm.de, Sprechzeiten: Mo, Di, Do, Fr 9.30-11.30 Uhr\n\nFachbereich MND\nWilhelm-Leuschner-Str. 13\nD - 61169 Friedberg\nE-Mail: dekanat@mnd.thm.de\nRaum A2.1.01\nFax +49 - (0) 60 31/604-185",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6247248a30ae0b9171b6b3fd",
+    "links": [
+      "mailto:info@thm.de",
+      "tel:060316047777"
+    ],
+    "questions": [
+      "Ich habe meine TANListe verloren. Meine TAN-Liste ist gesperrt. Ich benötige eine neue TAN-Liste, um mich zur Prüfung anmelden zu können. Wo kann ich diese erhalten?"
+    ],
+    "tag": "Ansprechpartner",
+    "responses": "Eine neue TAN-Liste erhalten Sie an dem InfoCenter in Friedberg:\nMo-Fr, 7:30 bis 16:00 Uhr, E-Mail: info@thm.de oder Tel. 06031-604-7777",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "62472437dfd1f1c0e65f623d",
+    "links": [
+      "mailto:christine.fricke-weiss@mnd.thm.de",
+      "mailto:stefanie.walter@mnd.thm.de",
+      "mailto:dekanat@mnd.thm.de"
+    ],
+    "questions": [
+      "Wo kann ich weitere Auskünfte zu den Bereichen „Anmeldung der Abschlussarbeit, Bachelorarbeit, externer Korreferent, Verlängerung Bearbeitungszeit der Abschlussarbeit, Abgabe der Bachelorarbeit, Übergang zum Master Wirtschaftsinformatik“ erhalten?"
+    ],
+    "tag": "Ansprechpartner",
+    "responses": "Ansprechpartnerinnen im MND-Dekanat:\nFrau Christine Fricke-Weiß, Tel. +49 - (0) 60 31/604-400, \nE-Mail: christine.fricke-weiss@mnd.thm.de, Sprechzeiten: Di.- Do., 9.30 - 11.30 Uhr\n\nFrau Stefanie Walter, Tel. +49 - (0) 60 31/604-403, E-Mail:\nstefanie.walter@mnd.thm.de, Sprechzeiten: Mo, Di, Do, Fr, 9.30 - 11.30 Uhr\n\nFachbereich MND\nWilhelm-Leuschner-Str. 13\nD - 61169 Friedberg\nE-Mail: dekanat@mnd.thm.de\nRaum A2.1.01\nFax +49 - (0) 60 31/604-185",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "62472348dfd1f1c0e65f623c",
+    "links": [
+      "https://www.thm.de/site/en/thm-dokumente/studium/1795-hochschuleinheitlicher-vordruck-zustimmungsverfahren-fuer-dieerbringung-von-mastermodulen-waehrend-desbachelorstudiums/download.html"
+    ],
+    "questions": [
+      "Ich bin zurzeit bei der Bearbeitung meiner Bachelorarbeit und möchte anschließend in den Master Wirtschaftsinformatik gehen. Leider werde ich nicht bis zum Immatrikulationstermin mit dem Bachelorstudium fertig. Kann ich trotzdem schon im nächsten Semester Mastermodule belegen?"
+    ],
+    "tag": "Zulassung zum Master (Auflagen) / Übergang aus 6-semestrigen Bachelorstudiengang (30 CrP-Auflagen)",
+    "responses": "Ja, Sie können schon im nächsten Semester als noch im Bachelorstudiengang immatrikulierter Studierende Mastermodule belegen. Die Allgemeine PO der THM regelt dies in § 3a Mastermodule während des Bachelorstudiums“:\n1) Im Vorgriff auf ein sich an das Bachelorstudium anschließende Masterstudium dürfen Studierende in der Regel nach Abgabe der Bachelorthesis Module aus dem Angebot der Masterstudiengänge der THM im Umfang von maximal 30 Creditpoints erbringen. Es gilt das in Anlage 1 und 2a beschriebene Verfahren. Ein Anspruch auf Zulassung zum Masterstudium entsteht dadurch nicht.\n\n(2) Dabei erbrachte Fehlversuche werden in das Masterstudium mitgenommen. Bestandene Leistungen können im Masterstudium nicht wiederholt werden. Für das folgende Semester ist dann (nochmals) eine Bewerbung für den Masterstudiengang Wirtschaftsinformatik vonnöten.\n\nBitte verwenden Sie folgendes Formular.",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "62472063dfd1f1c0e65f623b",
+    "links": [
+      "mailto:christine.fricke-weiss@mnd.thm.de",
+      "mailto:stefanie.walter@mnd.thm.de",
+      "mailto:dekanat@mnd.thm.de"
+    ],
+    "questions": [
+      "Wo kann ich weitere Auskünfte zu den Bereichen „Wahlpflichtmodule, Prüfungen in anderen Fachbereichen“ erhalten?"
+    ],
+    "tag": "Ansprechpartner",
+    "responses": "Ansprechpartnerinnen im MND-Dekanat:\nFrau Christine Fricke-Weiß, Tel. +49 - (0) 60 31/604-400, E-Mail:\nchristine.fricke-weiss@mnd.thm.de, Sprechzeiten: Di.- Do., 9.30-11.30 Uhr\n\nFrau Stefanie Walter, Tel. +49 - (0) 60 31/604-403, E-Mail:\nstefanie.walter@mnd.thm.de, Sprechzeiten: Mo, Di, Do, Fr 9.30-11.30 Uhr\n\nFachbereich MND\nWilhelm-Leuschner-Str. 13\nD - 61169 Friedberg\nE-Mail: dekanat@mnd.thm.de\nRaum A2.1.01\nFax +49 - (0) 60 31/604-185",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "62471fbfdfd1f1c0e65f623a",
+    "links": [
+      "mailto:jutta.frommel@mnd.thm.de",
+      "mailto:dekanat@mnd.thm.de"
+    ],
+    "questions": [
+      "Wo kann ich weitere Auskünfte zu den Bereichen „Wechsel der Hochschule, Einstufung höheres Fachsemester“ erhalten?"
+    ],
+    "tag": "Ansprechpartner",
+    "responses": "Ansprechpartnerin im MND-Dekanat:\nFrau Jutta Frommel, Tel. +49 - (0) 60 31/604-402, \nE-Mail: jutta.frommel@mnd.thm.de, Sprechzeiten: Mi, Fr, 9.30 - 11.30 Uhr\n\nFachbereich MND\nWilhelm-Leuschner-Str. 13\nD - 61169 Friedberg\nE-Mail: dekanat@mnd.thm.de\nRaum A2.1.01\nFax +49 - (0) 60 31/604-185",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "62471ebf30ae0b9171b6b3fb",
+    "links": [],
+    "questions": [
+      "Ich habe schon einige Semester Wirtschaftsinformatik (Bachelor) an einer anderen Hochschule studiert. Ich plane an die THM zu wechseln. Wann ist eine Bewerbung für ein höheres Fachsemester angebracht bzw. notwendig?"
+    ],
+    "tag": "Leistungsanerkennung (anderer Studiengang, andere Hochschule, Ausland)",
+    "responses": "Grundsätzlich obliegt die Wahl der Beantragung den Studierenden, wobei eine Bewerbung für ein höheres Fachsemester voraussetzt, dass eine Vorstudienzeit und ggf. auch ausreichende Vorstudienleistungen vorhanden sind.\nIndividuelle Gründe, die gegen eine Bewerbung bzw. Einschreibung in ein 1. Fachsemester sprechen, können studiengangsspezifisch sein (z. B. Studiengang geschlossen für die Aufnahme im 1. Fachsemester) oder im\nBereich des Sozial- (z. B. BAföG) oder Ausländerrechts liegen. Den Ablauf für eine Bewerbung für ein höheres Fachsemester können Sie im folgenden Link einsehen. \nDie Bewerbungsfrist für höhere Fachsemester ist zu beachten!",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "62471d8330ae0b9171b6b3fa",
+    "links": [
+      "mailto:judith.bettina.langhans@mnd.thm.de",
+      "mailto:klaus.schmidt@mnd.thm.de",
+      "mailto:dekanat@mnd.thm.de"
+    ],
+    "questions": [
+      "Wo kann ich weitere Auskünfte zu den Bereichen „BPP (Betriebliche Projektphase), Praxisphase“ erhalten?"
+    ],
+    "tag": "Ansprechpartner",
+    "responses": "Ansprechpartnerin im BPP-Referat des MND-Dekanats:\nFrau Judith Bettina Langhans, \nTel. +49 - (0) 60 31/604-401,\nE-Mail: judith.bettina.langhans@mnd.thm.de, \nRaum A2.1.01,\nSprechzeiten: Mo, Mi, Fr, 9.30 - 11.30 Uhr\n\nHerr Dipl.-Ing. Klaus Schmidt, \nTel. +49 - (0) 60 31/604-4757,\nE-Mail: klaus.schmidt@mnd.thm.de, \nRaum A4 U1.17,\nSprechzeiten: Di, 13:00 - 14.00 Uhr\n\nFachbereich MND\nWilhelm-Leuschner-Str. 13\nD - 61169 Friedberg\nE-Mail: dekanat@mnd.thm.de\nRaum A2.1.01\nFax +49 - (0) 60 31/604-185",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "62471bff30ae0b9171b6b3f9",
+    "links": [],
+    "questions": [
+      "Ich studiere Wirtschaftsinformatik (B.Sc.) und ich bin als Werkstudent / Werkstudentin / Werkstudierender in der IT tätig, welches eigentlich mein Fachgebiet abdeckt. Nun würde ich gerne wissen, ob ich meine berufspraktische Phase anerkennen lassen kann?"
+    ],
+    "tag": "Prüfungsordnung",
+    "responses": "Die Prüfungsordnung verlangt keine bestimmte Vertragsform für die BPP. Jedoch gibt es Voraussetzungen, die erfüllt sein müssen und die im Allgemeinen nicht mit einer Werkstudierendentätigkeit kompatibel sind. \n\nDie PO B.Sc. Wirtschaftsinformatik, Anlage3, §4 besagt: „Zur Projektphase wird zugelassen, wer die Module der ersten fünf Semester bis auf 12 CrP erfolgreich abgeschlossen hat . Das Pflichtmodul WirtschaftsinformatikSeminar II (WK_1105) muss in jedem Fall erfolgreich abgeschlossen sein. Folglich ist eine Zulassung zur Projektphase nur möglich, wenn mindestens 141 CrP aus den ersten fünf Semestern erreicht wurden. Eine weitere Voraussetzung ist der Nachweis des Besuchs der zwei Informationsveranstaltungen.“\n\nZugleich gilt nach PO B.Sc. Wirtschaftsinformatik, Anlage3, §9: „Eine Anrechnung ist grundsätzlich nur für gleichwertige Tätigkeiten möglich, die in einem zusammenhängenden Zeitraum von mindestens acht Wochen in Vollzeit ausgeübt wurden. Über die Anrechnung entscheidet der Prüfungsausschuss auf schriftlichen Antrag. Die Dokumentation und das Fachreferat nach § 6 sind ungeachtet einer Anrechnung von Tätigkeiten zu erbringen.“ \n\nWeiterhin müssen Sie vor dem Start eine(n) THM-Professor/in als Betreuer wählen und das BPP anmelden, indem Sie bei Frau Langhans im MND-Dekanat mit dem entsprechenden Formular die Zulassung beantragen. Hieraus folgt das eine Werkstudententätigkeit aus der Vergangenheit nicht anerkennbar ist.",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "62471b2b30ae0b9171b6b3f8",
+    "links": [
+      "mailto:christine.fricke-weiss@mnd.thm.de",
+      "mailto:stefanie.walter@mnd.thm.de",
+      "mailto:dekanat@mnd.thm.de"
+    ],
+    "questions": [
+      "Wo kann ich weitere Auskünfte zu den Bereichen „Anerkennung von Leistungen, Anerkennung von Leistungen aus dem Auslandssemester“ erhalten?"
+    ],
+    "tag": "Ansprechpartner",
+    "responses": "Ansprechpartnerinnen im MND-Dekanat:\nFrau Christine Fricke-Weiß, Tel. +49 - (0) 60 31/604-400, E-Mail:\nchristine.fricke-weiss@mnd.thm.de, Sprechzeiten: Di.- Do., 9.30 - 11.30 Uhr\n\nFrau Stefanie Walter, Tel. +49 - (0) 60 31/604-403, E-Mail:\nstefanie.walter@mnd.thm.de, Sprechzeiten: Mo, Di, Do, Fr, 9.30 - 11.30 Uhr\n\nFachbereich MND\nWilhelm-Leuschner-Str. 13\nD - 61169 Friedberg\nE-Mail: dekanat@mnd.thm.de\nRaum A2.1.01\nFax +49 - (0) 60 31/604-185",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "62471a92dfd1f1c0e65f6238",
+    "links": [],
+    "questions": [
+      "Was muss ich einreichen, um die im Auslandssemester erbrachten Leistungen anerkannt zu bekommen?"
+    ],
+    "tag": "Leistungsanerkennung (anderer Studiengang, andere Hochschule, Ausland)",
+    "responses": "Folgende Unterlagen sind im MND-Dekanat einzureichen, damit ihr Antrag auf Anerkennung von Leistungen aus dem Auslandssemester bearbeitet werden kann:\n\n• Academic Transcript\n• Changed Learning Agreement sowie\n• Nachweis der Dauer des Auslandsaufenthaltes\n• Leistungsnachweis\n• Formular zur Anerkennung von Prüfungsleistungen",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6242be3e30ae0b9171b6b3eb",
+    "links": [
+      "mailto:christine.fricke-weiss@mnd.thm.de",
+      "mailto:stefanie.walter@mnd.thm.de",
+      "mailto:dekanat@mnd.thm.de"
+    ],
+    "questions": [
+      "Wo kann ich weitere Auskünfte zu den Bereichen „Anerkennung von Leistungen, Anerkennung von Leistungen aus dem Auslandssemester“ erhalten?",
+      "Ansprechpartner Anerkennung von Leistungen",
+      "Ansprechpartner im MND-Sekretariat",
+      "Ansprechpartner MND-Dekanat",
+      "Ansprechpartner Dekanat",
+      "Ansprechpartner",
+      "Ansprechpartnerin",
+      "Ansprechpartnerinnen",
+      "MND",
+      "Ansprechpartern MND",
+      "Wer beantwortet Fragen zu Prüfungsangelegenheiten?"
+    ],
+    "tag": "Ansprechpartner",
+    "responses": "Ansprechpartnerinnen im MND-Dekanat: \nFrau Christine Fricke-Weiß, Tel. +49 - (0) 60 31/604-400, E-Mail: christine.fricke-weiss@mnd.thm.de, Sprechzeiten: Di.- Do., 9.30 - 11.30 Uhr\nFrau Stefanie Walter, Tel. +49 - (0) 60 31/604-403, E-Mail: stefanie.walter@mnd.thm.de, Sprechzeiten: Mo, Di, Do, Fr, 9.30 - 11.30 Uhr\n\nFachbereich MND\nWilhelm-Leuschner-Str. 13\nD - 61169 Friedberg\nE-Mail: dekanat@mnd.thm.de \nRaum A2.1.01\nFax +49 - (0) 60 31/604-185 \n",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6242b3bb30ae0b9171b6b3e0",
+    "links": [
+      "https://www.thm.de/mnd/component/edocman/faq-b-sc-wirtschaftsinformatik?Itemid=0",
+      "https://www.thm.de/site/hochschule/zentrale-bereiche/pruefungsamt/themen-von-a-z.html#Zustimmungsverfahren"
+    ],
+    "questions": [
+      " Ich habe eine Frage zur freiwilligen Teilnahme an einem Modul in einem  anderen Studiengang und Anrechnung von Leistungen. Angenommen ein  Student ist in einer Prüfung durchgefallen ( 1. Versuch ). Dieser  Student möchte sich jetzt freiwillig für ein ähnliches Modul  in einem  anderen Studiengang anmelden. Am Ende, aber erst dann, wenn dort das Modul bestanden wurde, möchte er seine Leistungen für den 2. Versuch anerkennen lassen. Ist dies möglich?",
+      "Ist eine freiwillige Teilnahme an Modulen in anderen Studiengängen bzw. Fachbereichen möglich? ",
+      "Kann ich Module erst nach dem Bestehen in einem anderen Studiengang bzw. Fachbereich anrechnen lassen?",
+      "Kann ich ein Modul belegen und erst später dessen Anechnung beantragen?",
+      "Ich habe eine Frage zur freiwilligen Teilnahme an einem Modul in einem  anderen Studiengang und Anrechnung von Leistungen. Kann ich dies freiwillig belegen und dann, wenn dort das Modul bestanden wurde, ggf. auch erst nach mehreren, freiwilligen Versuchen, dies anerkennen lassen?"
+    ],
+    "tag": "Leistungsanerkennung (anderer Studiengang, andere Hochschule, Ausland)",
+    "responses": "Eine freiwillige Teilnahme an einem Modul in einen anderen Studiengang ist möglich, wenn der dortige Dozierende dieser zustimmt. Das Modul kann auf Antrag auch unter „Bemerkungen“ im Zeugnis erscheinen. Jedoch ist eine Anrechnung nach dem Bestehen nicht möglich, d.h. es ersetzt kein Modul aus dem B.Sc. Wirtschaftsinformatik.\nFalls Sie dies anerkannt haben wollen, müssen Sie vor der Belegung eine Zustimmung für die Teilnahme am betreffenden Modul und an dessen Prüfung mit dem Formular \n\"Hochschuleinheitliches Zustimmungsverfahren (Prüfungen in anderen \nFachbereichen)\" beim Prüfungsausschuss über das MND-Dekanat beantragen. Wie der konkrete Ablauf ist siehe FAQ-Liste. Damit werden alle Versuche, auch die Fehlversuche, erfasst. Eine \nspätere Anrechnung auf die Prüfung nur dann, wenn diese bestanden wurde, ist nicht möglich.\nSiehe: ",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "624160bb30ae0b9171b6b3ca",
+    "links": [
+      "https://www.thm.de/mnd/component/edocman/faq-b-sc-wirtschaftsinformatik?Itemid=0"
+    ],
+    "questions": [
+      "Ich habe im Lehrplan gesehen, dass man, um das Praktikum machen zu können, die Modulen des 1. bis 5. Semesters anrechnen lassen muss, mit der Erlaubnis, 12 CP zu lassen. Ich würde gerne wissen, ob man auch alle Wahlpflichtmodulen belegen muss, bevor man das Praktikum machen kann?",
+      "Muss ich alle Wahlpflichtmodule vor dem Praktikum machen?",
+      "Muss man Wahlpflichtmodule vor dem BPP erfolgreich absolviert haben?"
+    ],
+    "tag": "BPP / Praktikum",
+    "responses": "Die vier Wahlpflichtmodule im B.Sc. WK sind im Curriculum Module wie jedes andere und gehören zu den Modulen des 4. bzw. 5. Semesters. Es gilt:\n\n„Zur Projektphase wird zugelassen, wer die Module der ersten fünf Semester bis auf 12 CrP erfolgreich abgeschlossen hat. Das Pflichtmodul Wirtschaftsinformatik-Seminar II (WK_1105) muss in jedem Fall erfolgreich abgeschlossen sein. Folglich ist eine Zulassung zur Projektphase nur möglich, wenn mindestens 141 CrP aus den ersten fünf Semestern erreicht wurden. Eine weitere Voraussetzung ist der Nachweis des Besuchs der zwei Informationsveranstaltungen (PO, Anlage3, §4))“.\n\nWeiterhin müssen Sie vor dem Start eine(n) THM-Professor/in als Betreuer wählen und das BPP anmelden, indem Sie bei Frau Langhans im MND-Dekanat mit dem entsprechenden Formular die Zulassung beantragen.\n\nWo kann ich weitere Auskünfte zu den Bereichen „BPP (Betriebliche Projektphase), Praxisphase“ erhalten?:\nAnsprechpartnerin im BPP-Referat des MND-Dekanats:\n- Frau Judith Bettina Langhans, Tel. +49 - (0) 60 31/604-401,\nE-Mail: judith.bettina.langhans@mnd.thm.de, Raum A2.1.01,\nSprechzeiten: Mo, Mi, Fr, 9.30 - 11.30 Uhr\n\nSiehe auch: Frequently Asked Questions\n    FAQ: B.Sc. Wirtschaftsinformatik: ",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6223390a6e65e468598baf6c",
+    "links": [],
+    "questions": [
+      "Tschüss",
+      "Tschau"
+    ],
+    "tag": "Begrüßung",
+    "responses": "Bis dann!",
+    "scope": "master"
+  },
+  {
+    "_id": "6223390a6e65e468598baf6b",
+    "links": [],
+    "questions": [
+      "Hi",
+      "Hallo",
+      "Servus",
+      "Guten Tag",
+      "Guten Abend"
+    ],
+    "tag": "Begrüßung",
+    "responses": "Hallo",
+    "scope": "master"
+  },
+  {
+    "_id": "6223390a6e65e468598baf6a",
+    "links": [],
+    "questions": [
+      "Tschüss"
+    ],
+    "tag": "Begrüßung",
+    "responses": "Bis dann!",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6223390a6e65e468598baf69",
+    "links": [],
+    "questions": [
+      "Hi",
+      "Hallo",
+      "Servus",
+      "Guten Tag",
+      "Guten Abend",
+      "Moin"
+    ],
+    "tag": "Begrüßung",
+    "responses": "Hallo",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6223390a6e65e468598baf68",
+    "links": [],
+    "questions": [
+      "Ich habe Module aus dem Bachelor Wirtschaftsinformatik als 30 CrP-Auflagemodule einbringen. In den Online-Diensten (E-Campus) kann ich mich jedoch nicht zu Prüfungen zu den Bachelormodulen anmelden. Wie ist vorzugehen? "
+    ],
+    "tag": "Zulassung zum Master (Auflagen) / Übergang aus 6-semestrigen Bachelorstudiengang (30 CrP-Auflagen)",
+    "responses": "Bezüglich des Antrags (Hochschuleinheitliches Zustimmungsverfahren) ist die Vorgehensweise bei „internen Modulen“ aus dem B.Sc. Wirtschaftsinformatik vereinfacht. Es ist keine Zustimmung durch den PA-Vorsitzenden vonnöten, da eine generelle Regelung existiert, dass man als Master-WK-Studierender die nötigen 30 CrP mit Modulen aus dem BSc WK erbringen kann (siehe „Info-Schreiben“ auf der PA-Homepage - über meine WWW-Seite erreichbar). Sie müssen sich jeweils nur mit dem Dozenten abstimmen, um eine Teilnahme an dem Modul zu gewährleisten - Kapazitätsgründe könnten z.B. dagegensprechen. Die Leistungsbewertung geht dann nach der Prüfung von dem Dozenten mit dem Formular an das MND-Sekretariat, das die Notenerfassung in HIS vornimmt. Diese Abstimmung, die eine Online-Anmeldung ersetzt, muss jedoch innerhalb der Anmeldefrist zu den Prüfungen erfolgen. Weiterhin müssen Sie beachten, dass das betreffende Modul keine inhaltlichen Überscheidungen mit schon im Bachelorstudiengang absolvierten Module aufweist (diese Prüfung erfolgt erst durch den PA bei der Antragsstellung mit dem 30 CrP-Formular vor der Anmeldung zur Masterthesis). Falls Sie Überschneidungen vermuten, sollten Sie sich vorab zu den Sprechstundenterminen an den PA-Vorsitzenden wenden.",
+    "scope": "master"
+  },
+  {
+    "_id": "6223390a6e65e468598baf67",
+    "links": [],
+    "questions": [
+      "Ich habe trotz zweier Wiederholungen eine Modulprüfung  nicht bestanden. Kann ich einen Joker einsetzen?"
+    ],
+    "tag": "Prüfungen (An-, Abmeldung, Zweitprüfer, Bonuspunkte, Joker-Einsatz)",
+    "responses": "Nein. Im Masterstudiengang ist der Einsatz von Joker nicht vorgesehen. Nach der Allg. PO der THM für Masterstudiengänge gilt: „Nicht bestandene Prüfungsleistungen und –teilleistungen können zweimal wiederholt werden. Die Masterarbeit mit Kolloquium kann einmal wiederholt werden. (Allg. PO Masterstudiengänge der THM. §13 (2).“ ",
+    "scope": "master"
+  },
+  {
+    "_id": "6223390a6e65e468598baf66",
+    "links": [
+      "mailto:dekanat@mnd.thm.de",
+      "https://www.thm.de/site/hochschule/zentrale-bereiche/pruefungsamt/themen-von-a-z.html#zustimmungsverfahren-bei-ausserhalb-des-eigenen-studiengangs-fachbereichs-erbrachten-pruefungsleistungen"
+    ],
+    "questions": [
+      "Wie melde ich mich zu Prüfungen / Klausuren / KoV (Klausuren ohne Vorlesungen) an?"
+    ],
+    "tag": "Prüfungen (An-, Abmeldung, Zweitprüfer, Bonuspunkte, Joker-Einsatz)",
+    "responses": "Grundsätzlich müssen Sie sich zu allen Prüfungen und Wiederholungen selbstständig über die Online-Dienste für Studierende (E-Campus) innerhalb der Anmeldefrist anmelden. Ein Versäumnis dieser Frist führt zum Ausschluss von diesen Prüfungen. Nachträgliche Anmeldungen werden nicht akzeptiert! Bei der An- bzw. Abmeldung bitte immer einen aktuellen Beleg ausdrucken! Im Zweifelsfall liegt die Beweislast bei Ihnen. Bei Problemen wenden Sie sich bitte unverzüglich an das Fachbereichssekretariat MND. Wenn Sie in Ihrem Studium an Prüfungen anderer Studiengänge oder anderer Fachbereiche teilnehmen wollen, zu denen Sie sich nicht selbst online anmelden können, so benötigen Sie dazu die Zustimmung beider Prüfungsausschüsse, ihres eigenen Studienganges und des anderen Studienganges. Die Beschreibung des Verfahrens und das dazu gehörige Antragsformular finden Sie auf den Seiten des Prüfungsamtes unter „Hochschuleinheitliches Zustimmungsverfahren“.",
+    "scope": "master"
+  },
+  {
+    "_id": "6223390a6e65e468598baf65",
+    "links": [],
+    "questions": [
+      "Ich habe die Anmeldefrist zu den Klausuren / KoV verpasst. Kann ich mich nachträglich anmelden?"
+    ],
+    "tag": "Prüfungen (An-, Abmeldung, Zweitprüfer, Bonuspunkte, Joker-Einsatz)",
+    "responses": "Nachträgliche Anmeldungen werden nicht akzeptiert! Grundsätzlich müssen Sie sich zu allen Prüfungen und Wiederholungen selbstständig über die Online-Dienste für Studierende (E-Campus) innerhalb der Anmeldefrist anmelden. Ein Versäumnis dieser Frist führt zum Ausschluss von diesen Prüfungen. ",
+    "scope": "master"
+  },
+  {
+    "_id": "6223390a6e65e468598baf64",
+    "links": [
+      "https://www.thm.de/site/hochschule/zentrale-bereiche/pruefungsamt/themen-von-a-z.html#Zustimmungsverfahren"
+    ],
+    "questions": [
+      "Ich möchte eine Prüfung in einem anderen Studiengang / Fachbereich absolvieren. Wie ist vorzugehen?"
+    ],
+    "tag": "Leistungsanerkennung (anderer Studiengang, andere Hochschule, Ausland)",
+    "responses": "Es ist das Hochschuleinheitliches Zustimmungsverfahren (Prüfungen in anderen Fachbereichen) anzuwenden. Das Vorgehen ist im untenstehenden Link beschrieben. Verwenden Sie bitte den dort auf der WWW-Seite hinterlegten Vordruck „Zustimmungsverfahren“.",
+    "scope": "master"
+  },
+  {
+    "_id": "6223390a6e65e468598baf63",
+    "links": [],
+    "questions": [
+      "Sind Bewerbungen für höhere Fachsemester auch in Master-Studiengängen möglich?"
+    ],
+    "tag": "Bewerbung für höhere Fachsemester",
+    "responses": "Ja. Voraussetzungen sind Vorstudienzeit in einem Master-Studiengang und Erfüllung der Zulassungsvoraussetzungen laut Prüfungsordnung (u. a. Abschlussnote des abgeschlossenen Erststudiums). Ein Quereinstieg in ein höheres Fachsemester eines Master-Studiengangs ohne Vorstudienzeit in einem Master-Studiengang ist ausgeschlossen!",
+    "scope": "master"
+  },
+  {
+    "_id": "6223390a6e65e468598baf62",
+    "links": [
+      "https://www.thm.de/mnd/studium/service/edokumente/verlaengerung-der-abschlussarbeit-antrag/viewdocument/42"
+    ],
+    "questions": [
+      "Ich muss die Bearbeitungszeit meiner Abschlussarbeit verlängern. Wie ist vorzugehen?"
+    ],
+    "tag": "Abschlussarbeit (Zulassung, Ausgabe, externer Korreferent, Abgabe)",
+    "responses": "Bitte besprechen Sie zunächst die Gründe mit ihrem 1. Referenten und legen ihn das nachfolgende Formular vor, bevor Sie es im MND-Dekanat einreichen. Falls Ihnen ein ärztliches Attest vorliegt, dann fügen Sie dieses dem Antrag bei. Im Allgemeinen erfolgt in diesem Fall eine Verlängerung der Bearbeitungszeit um die Zeitspanne der Krankschreibung. Geben Sie trotzdem bitte immer im Antrag die von Ihnen beantragte Dauer der Verlängerung an!",
+    "scope": "master"
+  },
+  {
+    "_id": "6223390a6e65e468598baf61",
+    "links": [
+      "mailto:dekanat@mnd.thm.de"
+    ],
+    "questions": [
+      "Wie erfolgt die Abgabe der Masterarbeit?"
+    ],
+    "tag": "Abschlussarbeit (Zulassung, Ausgabe, externer Korreferent, Abgabe)",
+    "responses": "Spätestens am letzten Tag der Bearbeitungsfrist ist eine pdf-Version der Abschlussarbeit an das MND-Dekanat zur Fristwahrung zu mailen. Dabei sind der 1. Referent und der Korreferent cc: zu setzen. Mit den beiden Referenten der Thesis ist direkt zu vereinbaren wie diese das für sie vorgesehene gebundene Papierexemplar erhalten möchten (keine Spiralbindung erlaubt!). Bitte lassen Sie dem MND-Dekanat noch eine CD/DVD im pdf-Format, die zur Archivierung im MND-Sekretariat bestimmt ist, zukommen. Alternativ können Sie auch bei Abschlussarbeiten der Wirtschaftsinformatik einen USB-Stick einreichen. ",
+    "scope": "master"
+  },
+  {
+    "_id": "6223390a6e65e468598baf60",
+    "links": [
+      "https://www.thm.de/mnd/studium/service/edokumente/anlage-abschlussarbeit-wk-externer-pruefer-1/viewdocument/41"
+    ],
+    "questions": [
+      "Kann ein Betreuer aus der Firma bei einer externen Abschlussarbeit als Korreferent fungieren?"
+    ],
+    "tag": "Abschlussarbeit (Zulassung, Ausgabe, externer Korreferent, Abgabe)",
+    "responses": "Ja, der Studierende kann bei der Antragsstellung auch einen externen Korreferenten angeben. Dieser muss jedoch mindestens den Hochschulabschluss aufweisen, für den er das Korreferat übernimmt. D.h. bei einer Master-Abschlussarbeit einen Master- bzw. einen Diplomabschluss einer Universität (Abschluss Dipl. (FH) ist nicht ausreichend). Zugleich muss er mindestens fünf Jahre Berufspraxis nach dem Erlangen des qualifizierenden Abschlusses nachweisen. Bitte reichen Sie bei der Antragsstellung dieses Formular sowie unbedingt immer eine Kopie der Urkunde / des Abschlusses mit ein.",
+    "scope": "master"
+  },
+  {
+    "_id": "6223390a6e65e468598baf5f",
+    "links": [
+      "https://www.thm.de/mnd/component/edocman/antrag-auf-zulassung-und-ausgabe-der-abschlussarbeit-ab-sose-2020"
+    ],
+    "questions": [
+      "Wo finde ich das Formular zur Anmeldung der Masterarbeit / Thesis?"
+    ],
+    "tag": "Abschlussarbeit (Zulassung, Ausgabe, externer Korreferent, Abgabe)",
+    "responses": "Das Formular zur Anmedlung der Masterarbeit findet man hier:",
+    "scope": "master"
+  },
+  {
+    "_id": "6223390a6e65e468598baf5e",
+    "links": [],
+    "questions": [
+      "Welche Voraussetzungen müssen erfüllt sein, damit ich meine Masterarbeit anmelden kann?",
+      "Wann kann ich mit der Masterarbeit beginnen?",
+      "Wann werde ich zur Masterarbeit zugelassen?",
+      "Muss ich alle Module erfolgreich absolviert haben, um zur Masterarbeit zugelassen zu werden?"
+    ],
+    "tag": "Abschlussarbeit (Zulassung, Ausgabe, externer Korreferent, Abgabe)",
+    "responses": "Einzige Voraussetzung ist das erfolgreich absolvierte Masterprojekt Wirtschaftsinformatik. Es empfiehlt sich jedoch die Masterarbeit erst zu beginnen, wenn alle anderen Module erbracht wurden. Das Kolloquium zur Masterarbeit findet als letzte Prüfung statt, d.h. bis dahin müssen alle anderen Prüfungen und Auflagen erfolgreich absolviert sein.\nAnders verhält es sich, wenn Sie Zulassungsauflagen (30 CrP-Auflagen und/oder fachliche Auflagemodule) haben. Gemäß §1 (3) der PO gilt: „(…) Mit der Masterarbeit darf erst begonnen werden, wenn der Nachweis über das Erbringen der fehlenden Leistungen vorliegt. (…)“ \n",
+    "scope": "master"
+  },
+  {
+    "_id": "6223390a6e65e468598baf5d",
+    "links": [
+      "https://www.thm.de/mnd/component/edocman/zuordnungstabelle-dozenten-semester-wpf-msc-wk",
+      "https://www.thm.de/mnd/studium/unsere-master-studiengaenge/m-sc-wirtschaftsinformatik"
+    ],
+    "questions": [
+      "Welche Wahlpflichtmodule im Masterstudiengang Wirtschaftsinformatik werden im Sommersemester bzw. im Wintersemester angeboten?"
+    ],
+    "tag": "Modulhandbuch",
+    "responses": "Die Zuordnungstabelle Dozenten/Semester gibt Aufschluss welche Module in welchen Semestern voraussichtlich angeboten werden. Welche Module konkret im betreffenden Semester angeboten werden, können Sie folgender MND-Seite entnehmen.",
+    "scope": "master"
+  },
+  {
+    "_id": "6223390a6e65e468598baf5c",
+    "links": [
+      "https://www.thm.de/mnd/component/edocman/formulare-anerkennung-wpm"
+    ],
+    "questions": [
+      "Im Masterstudiengang Wirtschaftsinformatik gibt es verschiedene Vertiefungsrichtungen. Was muss ich bei der Wahl eines Schwerpunktes beachten?",
+      "Wie erfolgt die Schwerpunktwahl?",
+      "Wann muss ich die Vertiefungsrichtung festlegen?",
+      "Wann muss ich meinen Schwerpunkt festlegen?",
+      "Wie erfolgt die Wahl der Vertiefung?",
+      "Gibt es im Master Schwerpunkte?",
+      "Gibt es Vertiefungsbereiche im Master?"
+    ],
+    "tag": "Schwerpunktwahl im Master",
+    "responses": "„Im Masterstudiengang „Wirtschaftsinformatik“ existieren die drei Schwerpunkte „Advanced Analytics“, „Information Systems Engineering & Security“ und „Business Engineering“. Die oder der Studierende wählt eine der drei Schwerpunkte, aus dem vier Module zu belegen sind. Weitere zwei Module können aus einem beliebigen Schwerpunkt gewählt werden. Die Zuordnung der Module zu den Schwerpunkten ist dem Modulhandbuch zu entnehmen (PO M.Sc. WK, §7 (1))“. Es wird empfohlen bis zum Antrag auf Zulassung zur Masterarbeit ist die verbindliche Schwerpunktwahl mit der Angabe der einzubringenden Wahlpflichtmodule unter Verwendung des entsprechenden Antragsformulars im MND-Sekretariat einzureichen.",
+    "scope": "master"
+  },
+  {
+    "_id": "6223390a6e65e468598baf5b",
+    "links": [
+      "https://www.thm.de/mnd/component/edocman/zweitpruefer-master-wirtschaftsinformatik-ab-dem-ws-18-19?Itemid=0"
+    ],
+    "questions": [
+      "Wer sind die aktuellen Zweitprüfer für die jeweiligen Module?"
+    ],
+    "tag": "Prüfungen (An-, Abmeldung, Zweitprüfer, Bonuspunkte, Joker-Einsatz)",
+    "responses": "",
+    "scope": "master"
+  },
+  {
+    "_id": "6223390a6e65e468598baf5a",
+    "links": [
+      "https://www.thm.de/site/thm-dokumente/studium/modulhandbuecher-studien-und-pruefungsordnungen-studienganginfos/fb-13-mnd-mathematik-naturwissenschaften-und-datenverarbeitung/modulhandbuecher/wirtschaftsinformatik-master.html",
+      "https://www.thm.de/amb/pruefungsordnungen/fb-13-mnd-mathematik-naturwissenschaften-und-datenverarbeitung/wirtschaftsinformatik-master.html"
+    ],
+    "questions": [
+      "Wo finde ich das aktuelle Modulhandbuch M.Sc. Wirtschaftsinformatik?",
+      "Welche Wahlfplichtmodule gibt es im Studiengang?",
+      "Welche Module muss ich belegen?"
+    ],
+    "tag": "Modulhandbuch",
+    "responses": "Das Modulhandbuch M.Sc. Wirtschaftsinformatik mit allen Pflicht- und Wahlpflichtmodulen findet man hier:",
+    "scope": "master"
+  },
+  {
+    "_id": "6223390a6e65e468598baf59",
+    "links": [
+      "https://www.thm.de/site/thm-dokumente/studium/modulhandbuecher-studien-und-pruefungsordnungen-studienganginfos/fb-13-mnd-mathematik-naturwissenschaften-und-datenverarbeitung/pruefungsordnungen/wirtschaftsinformatik-master.html",
+      "https://www.thm.de/amb/pruefungsordnungen/fb-13-mnd-mathematik-naturwissenschaften-und-datenverarbeitung/wirtschaftsinformatik-master.html"
+    ],
+    "questions": [
+      "Wo finde ich die aktuelle Prüfungsordnung (PO) M.Sc. Wirtschaftsinformatik?",
+      "Po",
+      "PO",
+      "PO?",
+      "Po?"
+    ],
+    "tag": "Prüfungsordnung",
+    "responses": "In den unteren Links finden sie die PO M.Sc. Wirtschaftsinformatik und die laufenden Anpassungen der PO.",
+    "scope": "master"
+  },
+  {
+    "_id": "6223390a6e65e468598baf58",
+    "links": [
+      "https://www.thm.de/mnd/fachbereich/organisation/gremien-und-beauftragte/ausschuesse-wirtschaftsinformatik"
+    ],
+    "questions": [
+      "Wer sind die studentischen Vertreter im Prüfungsausschuss Master Wirtschaftsinformatik?"
+    ],
+    "tag": "Prüfungsausschuss",
+    "responses": "",
+    "scope": "master"
+  },
+  {
+    "_id": "6223390a6e65e468598baf57",
+    "links": [
+      "https://www.thm.de/mnd/studium/service/pruefungsangelegenheiten/in-den-studiengaengen-wirtschaftsinformatik",
+      "https://www.thm.de/mnd/fachbereich/team/dekanat-sekretariat",
+      "https://homepages.thm.de/ritz/"
+    ],
+    "questions": [
+      "Wer kann mir Fragen zum Masterstudiengang Wirtschaftsinformatik beantworten?"
+    ],
+    "tag": "Ansprechpartner",
+    "responses": "Sollten sich nach dem Studieren der vielfältigen Informationen auf der WWW-Seite des Prüfungsausschusses Wirtschaftsinformatik und nach Kontaktaufnahme mit dem MND-Sekretariat, noch individuelle Fragen zu Prüfungsangelegenheiten ergeben, steht Ihnen gerne hierfür der PA-Vorsitzende, Prof. Dr. Harald Ritz, zu seinen Sprechstundenterminen zur Verfügung (siehe Homepage von  Prof. Dr. Ritz).",
+    "scope": "master"
+  },
+  {
+    "_id": "6223390a6e65e468598baf56",
+    "links": [
+      "https://www.thm.de/mnd/component/edocman/informationsschreiben-zur-neuen-po-2018-b-sc-und-m-sc-wirtschaftsinformatik="
+    ],
+    "questions": [
+      "Ich studiere SMS (Social Management Systems) bei MNI in Gießen im Bachelor und möchte anschließend den Masterstudiengang Wirtschaftsinformatik belegen. Welche Zulassungsauflagen muss ich erbringen?"
+    ],
+    "tag": "Leistungsanerkennung (anderer Studiengang, andere Hochschule, Ausland)",
+    "responses": "Da Sie aus einem 6 semestrigen Bachelorstudiengang kommen, müssen Sie zunächst noch 30 CrP zusätzlich erbringen, um am Ende 300 CrP aufzuweisen. Um für Abolventen und Absolventinnen des Studiengangs Social Media Systems (SMS) mehr Flexibilität für die Wahl des Masters Wirtschaftsinformatik zu schaffen, ohne grundlegende vorauszusetzende Methoden und Kompetenzen aus der Wirtschaftsinformatik/ Informatik zu vernachlässigen gilt: Als fachliche Auflage für Abolventen und Absolventinnen des Studiengangs Social Media Systems (SMS) sind mindestens drei der sechs nachfolgenden Module der Wirtschaftsinformatik/ Informatik nachzuweisen bzw. als Auflage zu erbringen (in alphabetischer Reihenfolge): Big Data (EB2505), Data Warehousing/Business Intelligence (EB2003), Geschäftsprozessmanagement (EB2005), Informationsmanagement (EB2002), Requirements Engineering (CS2360), Softwaretechnik (CS1021. Diese Module können schon während des Bachelorstudiengangs SMS belegt und in diesen eingebracht werden, sodass dann entsprechende Zulassungsauflagen entfallen.",
+    "scope": "master"
+  },
+  {
+    "_id": "6223390a6e65e468598baf55",
+    "links": [
+      "https://www.thm.de/mnd/component/edocman/formulare-anerkennung-wpm",
+      "https://www.thm.de/mnd/component/edocman/informationsschreiben-zur-neuen-po-2018-b-sc-und-m-sc-wirtschaftsinformatik"
+    ],
+    "questions": [
+      "Ich komme aus einem 6-semestrigen Bachlorstudiengang mit 180 CrP. Muss ich noch zusätzliche CrP erbringen, um den Masterabschluss Wirtschaftsinforamtik zu erlangen?"
+    ],
+    "tag": "Zulassung zum Master (Auflagen) / Übergang aus 6-semestrigen Bachelorstudiengang (30 CrP-Auflagen)",
+    "responses": "Da für das Erlangen eines Masterabschlusses 300 CrP vonnöten sind, gilt für die Ausgestaltung des §1 (3) der PO18 Master Wirtschaftsinformatik laut Beschluss der Zulassungskommission: 1. Absolventen aus Bachelor-Studiengängen mit 6 Semester Studienzeit (180 CrP) können die zum Bachelor-Studiengang mit 7 Semestern fehlenden 30 CrP wie folgt nachholen: a. 5 Module mit je 6 CrP aus dem Angebot des Bachelor- und/oder des Master-Studienangebots Wirtschaftsinformatik der THM oder 8 Wochen zusätzliche Berufspraktische Phase (BPP) – in Vollzeit oder 16 Wochen in 50% Teilzeit - und 3 Module a 6 CrP (wie vorher). b. Module aus anderen Studiengängen, die dem Bereich der Wirtschaftsinformatik zuzuordnen sind, können auf Antrag ebenfalls anerkannt werden. 2. Die Noten der zu erbringenden Module bzw. der zusätzlichen Berufspraktischen Phase unter Punkt 1 gehen nicht in die Gesamtabschlussnote des Master Wirtschaftsinformatik ein. Die Module bzw. die zusätzliche Berufspraktische Phase werden jedoch im Transcript of Records als zusätzliche Leistungen ohne Note aufgeführt. Auf Wunsch werden die Noten der Leistungen unter Punkt 1 angegeben. Die Leistungen unter Punkt 1 im Umfang von 30 CrP sollen bis zum Zeitpunkt der Anmeldung der Masterarbeit nachgewiesen werden. Hierzu ist das entsprechende Antragsformular zu verwenden und im MND-Sekretariat einzureichen. Auflagen-Module bei Studierenden aus anderen zulassungsberechtigten Bachelor-Studiengängen mit 6 Semestern Dauer werden auf die nachzuholenden 30 CrP unter Punkt 1 angerechnet.",
+    "scope": "master"
+  },
+  {
+    "_id": "6223390a6e65e468598baf54",
+    "links": [
+      "mailto:karim.kremer@mnd.thm.de"
+    ],
+    "questions": [
+      "Ich komme aus einem anderen Bachelor-Studiengang (nicht Wirtschaftsinformatik).  Welche Module muss ich noch eventuell als Grundlagenkurse nachholen?"
+    ],
+    "tag": "Zulassung zum Master (Auflagen) / Übergang aus 6-semestrigen Bachelorstudiengang (30 CrP-Auflagen)",
+    "responses": "Ob Sie zusätzlichen Auflagen-Fächer zum Master erbringen müssen entscheidet die Zulassungskommission. Nähere Auskünfte erteilt Ihnen gerne deren Vorsitzender, Prof. Dr. Karim Kremer.",
+    "scope": "master"
+  },
+  {
+    "_id": "6223390a6e65e468598baf53",
+    "links": [
+      "https://www.thm.de/mnd/studium/service/pruefungsangelegenheiten/anerkennung-von-leistungen",
+      "mailto:dekanat@mnd.thm.de"
+    ],
+    "questions": [
+      "Ich komme aus einem anderen Master-Studiengang Könnten Sie mir mitteilen, welche Module ich mir für meinen Master anrechnen lassen könnte?"
+    ],
+    "tag": "Zulassung zum Master (Auflagen) / Übergang aus 6-semestrigen Bachelorstudiengang (30 CrP-Auflagen)",
+    "responses": "Sie müssen zunächst selbst tätig werden und prüfen, was anerkennbar sein könnte. Welche Module ggf. anerkennbar sind können Sie dem Modulhandbuch entnehmen, das Sie auf der WWW-Seite des Prüfungsausschusses Wirtschaftsinformatik finden. Sollte Inhalt, CrP und SWS weitgehend übereinstimmen, ist im Allgemeinen von einer Anerkennung auszugehen. Konkret führt dies Prüfung der jeweilige Modulverantwortliche (ggf. der Dozent) durch, nachdem Sie in den Studiengang eingeschrieben sind - nicht vorher. Hierzu müssen Sie das Vorgehen beachten, das auf der WWW-Seite des PA Wirtschaftsinformatik für die Anerkennung von Leistungen aus Studiengängen dieser oder anderer Hochschulen beschrieben ist. Mit dem dortigen Formular bitte sukzessive die einzelnen „zuständige Anerkennungsbeauftragte (Modulverantwortliche/Dozent)“ kontaktieren. Am Ende das komplett ausgefüllte Formular an das MND-Dekanat senden. Der Prüfungsausschuss (PA) entscheidet abschließend über eine Anerkennung. ",
+    "scope": "master"
+  },
+  {
+    "_id": "6223390a6e65e468598baf52",
+    "links": [
+      "https://www.thm.de/site/component/edocman/1751-merkblatt-zum-einsatz-von-jokern/download.html"
+    ],
+    "questions": [
+      "Ich habe im 3. Prüfungs-versuch ein Modul nicht bestanden. Wie kann ich einen Joker einsetzen?",
+      "Joker",
+      "Jokereinsatz",
+      "Wo finde ich das Merkblatt zum Einsatz von Jokern?"
+    ],
+    "tag": "Prüfungen (An-, Abmeldung, Zweitprüfer, Bonuspunkte, Joker-Einsatz)",
+    "responses": "Ab dem 01. Oktober 2019 können Sie zusätzlich zu Ihren regulären zwei Wiederholungsversuchen während Ihres gesamten Bachelorstudiums einmalig bis zu zwei Joker in Anspruch nehmen. Diese können frei für die Wiederholung aller Prüfungsleistungen/-teilleistungen (auch die der gleichen Leistungen) verwendet werden. Ausgenommen hiervon sind die Bachelorarbeit und das Kolloquium sowie Praxis- oder Projektphasen. Sie erhalten vom Fachbereich MND ein Schreiben über die schriftliche Anhörung vor der Feststellung Ihres endgültigen Nichtbestehens im B.Sc. Wirtschaftsinformatik, welches auf das weitere Vorgehen hinweist.",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6223390a6e65e468598baf51",
+    "links": [
+      "mailto:dekanat@mnd.thm.de",
+      "https://www.thm.de/site/hochschule/zentrale-bereiche/pruefungsamt/themen-von-a-z.html#zustimmungsverfahren-bei-ausserhalb-des-eigenen-studiengangs-fachbereichs-erbrachten-pruefungsleistungen"
+    ],
+    "questions": [
+      "Wie melde ich mich zu Prüfungen / Klausuren / KoV (Klausuren ohne Vorlesungen) an?"
+    ],
+    "tag": "Prüfungen (An-, Abmeldung, Zweitprüfer, Bonuspunkte, Joker-Einsatz)",
+    "responses": "Grundsätzlich müssen Sie sich zu allen Prüfungen und Wiederholungen selbstständig über die Online-Dienste für Studierende (E-Campus) innerhalb der Anmeldefrist anmelden. Ein Versäumnis dieser Frist führt zum Ausschluss von diesen Prüfungen. Nachträgliche Anmeldungen werden nicht akzeptiert! Bei der An- bzw. Abmeldung bitte immer einen aktuellen Beleg ausdrucken! Im Zweifelsfall liegt die Beweislast bei Ihnen. Bei Problemen wenden Sie sich bitte unverzüglich an das Fachbereichssekretariat MND. Wenn Sie in Ihrem Studium an Prüfungen anderer Studiengänge oder anderer Fachbereiche teilnehmen wollen, zu denen Sie sich nicht selbst online anmelden können, so benötigen Sie dazu die Zustimmung beider Prüfungsausschüsse, ihres eigenen Studienganges und des anderen Studienganges. Die Beschreibung des Verfahrens und das dazu gehörige Antragsformular finden Sie auf den Seiten des Prüfungsamtes unter „Hochschuleinheitliches Zustimmungsverfahren“.",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6223390a6e65e468598baf50",
+    "links": [],
+    "questions": [
+      "Ich habe die Anmeldefrist zu den Klausuren / KoV verpasst. Kann ich mich nachträglich anmelden?"
+    ],
+    "tag": "Prüfungen (An-, Abmeldung, Zweitprüfer, Bonuspunkte, Joker-Einsatz)",
+    "responses": "Nachträgliche Anmeldungen werden nicht akzeptiert! Grundsätzlich müssen Sie sich zu allen Prüfungen und Wiederholungen selbstständig über die Online-Dienste für Studierende (E-Campus) innerhalb der Anmeldefrist anmelden. Ein Versäumnis dieser Frist führt zum Ausschluss von diesen Prüfungen.",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6223390a6e65e468598baf4f",
+    "links": [
+      "mailto:dekanat@mnd.thm.de"
+    ],
+    "questions": [
+      "Wie erfolgt die Abgabe der Bachelorarbeit?"
+    ],
+    "tag": "Abschlussarbeit (Zulassung, Ausgabe, externer Korreferent, Abgabe) ",
+    "responses": "Spätestens am letzten Tag der Bearbeitungsfrist ist eine pdf-Version der Abschlussarbeit an das MND-Dekanat zur Fristwahrung zu mailen. Dabei sind der 1. Referent und der Korreferent cc: zu setzen. Mit den beiden Referenten der Thesis ist direkt zu vereinbaren wie diese das für sie vorgesehene gebundene Papierexemplar erhalten möchten (keine Spiralbindung erlaubt!). Bitte lassen Sie dem MND-Dekanat noch eine CD/DVD im pdf-Format, die zur Archivierung im MND-Sekretariat bestimmt ist, zukommen. Alternativ können Sie auch bei Abschlussarbeiten der Wirtschaftsinformatik einen USB-Stick einreichen.",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6223390a6e65e468598baf4e",
+    "links": [
+      "https://www.thm.de/mnd/studium/service/edokumente/verlaengerung-der-abschlussarbeit-antrag/viewdocument/42"
+    ],
+    "questions": [
+      "Ich muss die Bearbeitungszeit meiner Abschlussarbeit verlängern. Wie ist vorzugehen?"
+    ],
+    "tag": "Abschlussarbeit (Zulassung, Ausgabe, externer Korreferent, Abgabe) ",
+    "responses": "Bitte besprechen Sie zunächst die Gründe mit ihrem 1. Referenten und legen ihn das nachfolgende Formular vor, bevor Sie es im MND-Dekanat einreichen. Falls Ihnen ein ärztliches Attest vorliegt, dann fügen Sie dieses dem Antrag bei. Im Allgemeinen erfolgt in diesem Fall eine Verlängerung der Bearbeitungszeit um die Zeitspanne der Krankschreibung. Geben Sie trotzdem bitte immer im Antrag die von Ihnen beantragte Dauer der Verlängerung an!",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6223390a6e65e468598baf4d",
+    "links": [
+      "https://www.thm.de/mnd/studium/service/edokumente/anlage-abschlussarbeit-wk-externer-pruefer-1/viewdocument/41"
+    ],
+    "questions": [
+      "Kann ein Betreuer aus der Firma bei einer externen Abschlussarbeit als Korreferent fungieren?"
+    ],
+    "tag": "Abschlussarbeit (Zulassung, Ausgabe, externer Korreferent, Abgabe) ",
+    "responses": "Ja, der Studierende kann bei der Antragsstellung auch einen externen Korreferenten angeben. Dieser muss jedoch mindestens den Hochschulabschluss aufweisen, für den er das Korreferat übernimmt. D.h. bei einer Bachelor-Abschlussarbeit mindestens einen Bachelor- bzw. einen Diplomabschluss (FH). Zugleich muss er mindestens fünf Jahre Berufspraxis nach dem Erlangen des qualifizierenden Abschlusses nachweisen. Bitte reichen Sie bei der Antragsstellung dieses Formular sowie unbedingt immer eine Kopie der Urkunde / des Abschlusses mit ein.",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6223390a6e65e468598baf4c",
+    "links": [
+      "https://www.thm.de/mnd/component/edocman/antrag-auf-zulassung-und-ausgabe-der-abschlussarbeit-ab-sose-2020"
+    ],
+    "questions": [
+      "Wo finde ich das Formular zur Anmeldung der Bachelorarbeit / Thesis?"
+    ],
+    "tag": "Abschlussarbeit (Zulassung, Ausgabe, externer Korreferent, Abgabe) ",
+    "responses": "Weitere Infos finden Sie unter dem folgendem Link.",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6223390a6e65e468598baf4b",
+    "links": [],
+    "questions": [
+      "Welche Voraussetzungen müssen erfüllt sein, damit ich meine Bachelorarbeit anmelden kann?",
+      "Wann kann ich zur Bachelorarbeit zugelassen werden?",
+      "Wie viele Module können für die Zulassung zur Bachelorarbeit noch offen sein?"
+    ],
+    "tag": "Abschlussarbeit (Zulassung, Ausgabe, externer Korreferent, Abgabe) ",
+    "responses": "„Die Zulassung zur Bachelorarbeit kann erst erfolgen, wenn aus den im Curriculum (Anlage 1) angegebenen Modulen bis einschließlich dem 6. Semester alle bis auf maximal drei Module erfolgreich absolviert wurden. Die Projektphase und das Projektseminar müssen vor dem Beginn der Bachelorarbeit erfolgreich abgeschlossen sein. Für die Zulassung zum Kolloquium müssen alle Module erfolgreich absolviert sein. (PO, §6 (1))“ ",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6223390a6e65e468598baf4a",
+    "links": [
+      "https://www.thm.de/mnd/component/edocman/zweitpruefer-ab-dem-sommersemester-2021?Itemid=0"
+    ],
+    "questions": [
+      "Wer sind die aktuellen Zweitprüfer für die jeweiligen Module im Bachelor Wirtschaftsinformatik?"
+    ],
+    "tag": "Prüfungen (An-, Abmeldung, Zweitprüfer, Bonuspunkte, Joker-Einsatz)",
+    "responses": "Weitere Infos finden Sie unter dem folgendem Link.",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6223390a6e65e468598baf49",
+    "links": [
+      "https://www.thm.de/site/thm-dokumente/studium/modulhandbuecher-studien-und-pruefungsordnungen-studienganginfos/fb-13-mnd-mathematik-naturwissenschaften-und-datenverarbeitung/modulhandbuecher/wirtschaftsinformatik-bachelor.html",
+      "https://www.thm.de/amb/pruefungsordnungen/fb-13-mnd-mathematik-naturwissenschaften-und-datenverarbeitung/wirtschaftsinformatik-bachelor.html"
+    ],
+    "questions": [
+      "Wo finde ich das aktuelle Modulhandbuch B.Sc. Wirtschaftsinformatik?",
+      "Welche Wahlpflichtmodule gibt es im Studiengang?"
+    ],
+    "tag": "Modulhandbuch",
+    "responses": "Das Modulhandbuch B.Sc. Wirtschaftsinformatik zu allen Pflicht- und Wahlpflichtmodulen findet man hier:",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6223390a6e65e468598baf48",
+    "links": [
+      "https://www.thm.de/site/thm-dokumente/studium/modulhandbuecher-studien-und-pruefungsordnungen-studienganginfos/fb-13-mnd-mathematik-naturwissenschaften-und-datenverarbeitung/pruefungsordnungen/wirtschaftsinformatik-bachelor.html",
+      "https://www.thm.de/amb/pruefungsordnungen/fb-13-mnd-mathematik-naturwissenschaften-und-datenverarbeitung/wirtschaftsinformatik-bachelor.html"
+    ],
+    "questions": [
+      "Wo finde ich die aktuelle Prüfungsordnung (PO) B.Sc. Wirtschaftsinformatik?"
+    ],
+    "tag": "Prüfungsordnung",
+    "responses": "In den unteren Links finden sie die PO B.Sc. Wirtschaftsinformatik und die laufenden Anpassungen der PO.",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6223390a6e65e468598baf47",
+    "links": [
+      "https://www.thm.de/mnd/fachbereich/organisation/gremien-und-beauftragte/ausschuesse-wirtschaftsinformatik"
+    ],
+    "questions": [
+      "Wer sind die studentischen Vertreter im Prüfungsausschuss Bachelor Wirtschaftsinformatik?"
+    ],
+    "tag": "Prüfungsausschuss",
+    "responses": "Die Mitglieder im Prüfungsausschuss B.Sc. Wirtschaftsinformatik können Sie folgendem Link entnehmen.",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6223390a6e65e468598baf46",
+    "links": [
+      "https://www.thm.de/site/hochschule/zentrale-bereiche/pruefungsamt/themen-von-a-z.html#Zustimmungsverfahren"
+    ],
+    "questions": [
+      "Ich möchte eine Prüfung in einem anderen Studiengang / Fachbereich absolvieren. Wie ist vorzugehen?"
+    ],
+    "tag": "Prüfungen in anderen Studiengängen / Fachbereichen",
+    "responses": "Es ist das Hochschuleinheitliches Zustimmungsverfahren (Prüfungen in anderen Fachbereichen) anzuwenden. Das Vorgehen ist im untenstehenden Link beschrieben. Verwenden Sie bitte den dort auf der WWW-Seite hinterlegten Vordruck „Zustimmungsverfahren“.",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6223390a6e65e468598baf45",
+    "links": [
+      "https://www.thm.de/mnd/studium/service/pruefungsangelegenheiten/in-den-studiengaengen-wirtschaftsinformatik",
+      "https://www.thm.de/site/component/edocman/1670-vordruck-zustimmungsverfahren/download.html?Itemid=104798",
+      "mailto:dekanat@mnd.thm.de"
+    ],
+    "questions": [
+      "Ist es möglich, dass ich meine Wahlpflichtmodule auch in einem anderen Fachbereich absolvieren kann?"
+    ],
+    "tag": "Wahlpflichtmodule",
+    "responses": "Bitte beachten Sie das „Hochschuleinheitliches Zustimmungsverfahren (Prüfungen in anderen Fachbereichen)“, wie auf der WWW-Seite des Prüfungsausschusses beschrieben. Bitte das betreffende, unten verlinkte Formular, zunächst der Dozentin/dem Dozenten vorlegen, d.h. der Prüferin /dem Prüfer des Moduls, das die /der Studierende außerhalb erbringen möchte (da z.B. Kapazitätsgründe gegen eine Teilnahme sprechen können) und erst dann an das MND-Dekanat senden, das gerne auch nähere Auskünfte erteilt. Dieses leitet es abschließend an den PA-Vorsitzenden weiter.",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6223390a6e65e468598baf44",
+    "links": [],
+    "questions": [
+      "Was bedeutet der Zusatz „§ 13 Abs. 6 der Allgemeinen Bestimmungen für Bachelorprüfungen der THM vom 25.04.2018 wurde beachtet.“ auf der Unbedenklichkeitsbescheinigung?"
+    ],
+    "tag": "Allgemeinen Bestimmungen für Bachelorprüfungen",
+    "responses": "Vor einer Rückkehr in einen Studiengang, in den die/der Bewerberin/Bewerber zuvor bereits immatrikuliert war, ist zu prüfen, ob weiterhin Prüfungsanspruch besteht. Dabei sind sowohl Fehlversuche an der THM als auch an anderen Hochschulen im gleichen Studiengang zu berücksichtigen. Die fachliche Überprüfung, ob eine Rückkehr in den Studiengang unter diesen Gesichtspunkten möglich ist, obliegt dem Fachbereich.",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6223390a6e65e468598baf43",
+    "links": [],
+    "questions": [
+      "Kann nach der Immatrikulation in ein höheres Fachsemester nachträglich „höher gestuft“ werden?"
+    ],
+    "tag": "Bewerbung für höhere Fachsemester",
+    "responses": "Nein. Die Zulassung bzw. Immatrikulation erfolgt auf Basis der mit der Bewerbung vorgelegten Nachweise (Unbedenklichkeitsbescheinigung, Fachsemestereinstufung), aus denen sich das zu wählende Fachsemester ergibt. Ausschlaggebend ist der Stand bei Bewerbungsschluss. Eine nachträgliche „Höherstufung“ im gleichen Studiengang ist ausgeschlossen.",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6223390a6e65e468598baf42",
+    "links": [
+      "https://www.thm.de/site/hochschule/zentrale-bereiche/studiensekretariat/bewerbung-hoeheres-fachsemester.html#ablauf-der-bewerbung-fuer-hoehere-fachsemester",
+      "https://www.thm.de/site/component/edocman/1784-fachsemestereinstufung/download.html?Itemid=105541",
+      "mailto:dekanat@mnd.thm.de"
+    ],
+    "questions": [
+      "Ich habe schon einige Semester Wirtschaftsinformatik (Bachelor) an einer anderen Hochschule studiert. Ich plane an die THM zu wechseln und möchte mich für ein höheres Fachsemesters bewerben. Wie erfolgt die Fachsemestereinstufung?",
+      "Aktuell befinde ich mich im Bewerbungsprozess für ein höheres Fachsemester an Ihrer Hochschule und benötige dazu eine Fachsemestereinstufung. Dafür wurde mir vom Studiensekretariat Ihr Kontakt mitgeteilt. Welche Unterlagen benötigen Sie denn von mir, um die Fachsemestereinstufung vornehmen zu können?"
+    ],
+    "tag": "Leistungsanerkennung (anderer Studiengang, andere Hochschule, Ausland)",
+    "responses": "Den Ablauf für eine Bewerbung für ein höheres Fachsemester können Sie im folgendem Link einsehen. Bitte verwenden Sie auch den verlinkten Vordruck. Dieser Vordruck ist vorausgefüllt mit ihren persönlichen Daten im MND-Dekanat mit den nötigen Anlagen (aus dem bisherigen Studium von ihrer bisherigen Hochschule: aktueller Leistungsspiegel, Nachweis der Anzahl der Fachsemester (einschließlich Praxissemester), Nachweis über eventuelle berufspraktische Tätigkeit vor der Hochschul-einschreibung, die als Praxissemester gewertet wurde und ggf. Beleg über ein Auslandssemester) einzureichen, sodass der Fachbereich dies prüfen kann. Zuständig ist der Vorsitzende des Prüfungsausschusses B.Sc. Wirtschaftsinformatik. Die Bewerbungsfrist für höhere Fachsemester ist zu beachten! ",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6223390a6e65e468598baf41",
+    "links": [
+      "https://www.thm.de/site/hochschule/zentrale-bereiche/studiensekretariat/bewerbung-hoeheres-fachsemester.html#ablauf-der-bewerbung-fuer-hoehere-fachsemester"
+    ],
+    "questions": [
+      "Ich habe schon einige Semester Wirtschaftsinformatik (Bachelor) an einer anderen Hochschule studiert. Ich plane an die THM zu wechseln. Wann ist eine Bewerbung für ein höheres Fachsemester angebracht bzw. notwendig?"
+    ],
+    "tag": "Leistungsanerkennung (anderer Studiengang, andere Hochschule, Ausland)",
+    "responses": "Grundsätzlich obliegt die Wahl der Beantragung den Studierenden, wobei eine Bewerbung für ein höheres Fachsemester voraussetzt, dass eine Vorstudienzeit und ggf. auch ausreichende Vorstudienleistungen vorhanden sind. Individuelle Gründe, die gegen eine Bewerbung bzw. Einschreibung in ein 1. Fachsemester sprechen, können studiengangsspezifisch sein (z. B. Studiengang geschlossen für die Aufnahme im 1. Fachsemester) oder im Bereich des Sozial- (z. B. BAföG) oder Ausländerrechts liegen. Den Ablauf für eine Bewerbung für ein höheres Fachsemester können Sie unter dem untenstehenden Link einsehen. Die Bewerbungsfrist für höhere Fachsemester ist zu beachten! ",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6223390a6e65e468598baf40",
+    "links": [],
+    "questions": [
+      "In der Prüfungsordnung ist es den Studenten nur erlaubt 20 Wochen bei einem Unternehmen im BPP zu verweilen. Die Firma würde mir erst einen BPP-Praktikums-Vertrag mit einer Mindestlaufzeit von 24 Wochen / 6 Monaten unterbreiten. Ist eine Verlängerung der BPP möglich?"
+    ],
+    "tag": "BPP / Praktikum",
+    "responses": "Nein, da die Anlage 3, §3 der PO keine Verlängerung der Vollzeit-Laufzeit von 20 Wochen (netto) vorsieht. Die zusätzliche Zeiten wären ein freiwilliges Praktikum. Man sollte daher gegenüber den Firmen mit der Laufzeit von BPP plus Thesis argumentierten. D.h. 20 Wochen (BPP) plus anschließende drei Monate Thesis könnten am Stück in Vollzeit im Unternehmen verbracht werden. Voraussetzung ist dabei, dass eine Zulassung zur Bachelorarbeit nach dem BPP direkt erfolgen kann. Zum SoSe 2022 ist jedoch folgende Ergänzung der Anlage3, §3 vorgesehen: „(…)Auf Antrag der oder des Studierenden kann in besonders begründeten Fällen die Projektphase auf maximal 26 Wochen (bzw. 6 Monate) vom Prüfungsausschuss verlängert werden. (...)“.",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6223390a6e65e468598baf3f",
+    "links": [
+      "mailto:judith.bettina.langhans@mnd.thm.de",
+      "tel:+496031604401",
+      "https://homepages.thm.de/ritz/"
+    ],
+    "questions": [
+      "Ich habe Fragen zur Betrieblichen Projektphase (BPP) im Bachelor-studiengang Wirtschaftsinformatik. An wenn kann ich mich wenden?",
+      "Ansprechpartner BPP",
+      "Ansprechpartner Praktikum",
+      "BPP ",
+      "Praktikum",
+      "Betriebliche Projektphase"
+    ],
+    "tag": "Ansprechpartner",
+    "responses": "Als erste Ansprechpartnerin für die BPP fungiert im MND-Fachbereichssekretariat Frau Langhans, welche das BPP-Referat für den Studiengang B.Sc. Wirtschaftsinformatik betreut. Weiterhin können Sie den PA-Vorsitzenden, Prof. Dr. Harald Ritz während seiner Sprechstunden (Termine siehe Homepage) bei Fragen zum BPP erreichbar.",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6223390a6e65e468598baf3e",
+    "links": [],
+    "questions": [
+      "Ich möchte erbrachte Leistungen (z.B. eine vor dem Studium absolvierte Ausbildung zum Fachinformatiker für Systemintegration) nach PO, Anlage 3, §9 als gleichwertige praktische Tätigkeiten für die Betriebliche Projektphase (BPP) anerkennen lassen. Wie ist vorzugehen?"
+    ],
+    "tag": "BPP / Praktikum",
+    "responses": "Es gilt: „Studierende, die eine der Projektphase gleichwertige Tätigkeit nachweisen, kann diese auf Antrag ganz oder teilweise auf die Projektphase angerechnet werden. Praktische Tätigkeiten von Studierenden sollen nur dann auf die Projektphase angerechnet werden, wenn die Tätigkeit auf einem Ausbildungsstand basiert, der den ersten vier Semestern des Studiengangs Wirtschaftsinformatik entspricht und es können nur solche Zeiten anerkannt werden, die zeitlich nach der Erfüllung von § 4 liegen. (PO B.Sc. Wirtschaftsinformatik, Anlage3, §9)“ Die PO B.Sc. Wirtschaftsinformatik, Anlage3, §4 besagt: „Zur Projektphase wird zugelassen, wer die Module der ersten fünf Semester bis auf 12 CrP erfolgreich abgeschlossen hat . Das Pflichtmodul Wirtschaftsinformatik-Seminar II (WK_1105) muss in jedem Fall erfolgreich abgeschlossen sein. Folglich ist eine Zulassung zur Projektphase nur möglich, wenn mindestens 141 CrP aus den ersten fünf Semestern erreicht wurden. Eine weitere Voraussetzung ist der Nachweis des Besuchs der zwei Informationsveranstaltungen.“ Weiterhin gilt nach PO B.Sc. Wirtschaftsinformatik, Anlage3, §9: „Eine Anrechnung ist grundsätzlich nur für gleichwertige Tätigkeiten möglich, die in einem zusammenhängenden Zeitraum von mindestens acht Wochen in Vollzeit ausgeübt wurden. Über die Anrechnung entscheidet der Prüfungsausschuss auf schriftlichen Antrag. Die Dokumentation und das Fachreferat nach § 6 sind ungeachtet einer Anrechnung von Tätigkeiten zu erbringen.“ Eine Ausbildung zum „Fachinformatiker für Systemintegration“ entspricht dem Deutschen Qualifikationsrahmen (DQR)-Niveau 4 und stellt damit eine Vorstufe zum Bachelorstudium dar (Bachelorabschluss entspricht DQR-Niveau 6). Das DQR-Niveau 5 (z.B. Fortbildung zum zertifizierten IT-Spezialisten) könnte man den in Anlage 3, §4 der PO BSc WK geforderten Anforderungen aus den ersten fünf Semestern gleichsetzen, die Voraussetzung für die BPP sind. Im konkreten Beispielfall müsste der Antrag abgelehnt werden. Sollte jedoch durch die Ausbildungs- , Fortbildungs- und Berufszeiten nachweislich mindestens das DQR-Niveau 5 vorliegen, ist dies durch das Einreichen folgender Unterlagen nachzuweisen: IHK-Zeugnis der Ausbildung Arbeitszeugnis der Berufsstätigkeit ",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6223390a6e65e468598baf3d",
+    "links": [],
+    "questions": [
+      "Welche Voraussetzungen sind nötig, damit ich die Betriebliche Projektphase (BPP) / das Praktikum starten kann?",
+      "BPP",
+      "Betriebliche Projektphase",
+      "Praktikum",
+      "Praxisphase"
+    ],
+    "tag": "BPP / Praktikum",
+    "responses": "„Zur Projektphase wird zugelassen, wer die Module der ersten fünf Semester bis auf 12 CrP erfolgreich abgeschlossen hat. Das Pflichtmodul Wirtschaftsinformatik-Seminar II (WK_1105) muss in jedem Fall erfolgreich abgeschlossen sein. Folglich ist eine Zulassung zur Projektphase nur möglich, wenn mindestens 141 CrP aus den ersten fünf Semestern erreicht wurden. Eine weitere Voraussetzung ist der Nachweis des Besuchs der zwei Informationsveranstaltungen (PO, Anlage3, §4))“. ",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6223390a6e65e468598baf3b",
+    "links": [],
+    "questions": [
+      "Gibt es ein Vorpraktikum, das man vor der Immatrikulation ablegen muss?"
+    ],
+    "tag": "Allgemeinen Bestimmungen für Bachelorprüfungen",
+    "responses": "Nein, ein Vorpraktikum ist nicht vonnöten. ",
+    "scope": "bachelor"
+  },
+  {
+    "_id": "6223390a6e65e468598baf3a",
+    "links": [
+      "https://www.thm.de/mnd/studium/service/pruefungsangelegenheiten/in-den-studiengaengen-wirtschaftsinformatik",
+      "https://www.thm.de/mnd/studium/service/pruefungsangelegenheiten/anerkennung-von-leistungen",
+      "mailto:dekanat@mnd.thm.de"
+    ],
+    "questions": [
+      "Ich komme aus einem anderen Bachelor-Studiengang Könnten Sie mir mitteilen, welche Module ich mir für meinen Bachelor Wirtschaftsinformatik anrechnen lassen könnte? ",
+      "Ich will nächste Wintersemester wieder mit Wirtschaftsinformatik anfangen. Deswegen wollte ich auch gern wissen, welche Fächer ich dieses Semester in Technischer Informatik schreiben kann, die in Wirtschaftsinformatik anerkannt werden können. Jetzt ich weiß nicht, was ich machen soll und ich brauche mehr Informationen darüber.",
+      "Welche Module kann ich mir anrechnen lassen?",
+      "Ich studiere im ersten Semester in einem anderen Studiengang an der THM. Im nächsten Semester werde ich Wirtschaftsinformatik studieren. Ich möchte gern wissen, welche Module anerkannt werden können? ",
+      "Ich studiere aktuell an einer anderen Hochschule bzw. Univesität. Da ich meinen Prüfungsanspruch wegen eines Modules verloren habe würde ich gerne die Hochschule wechseln. Falls es möglich wäre, würde ich mich eventuell bei Ihnen für den Studiengang Wirtschaftsinformatik bewerben. Meine Frage wäre. ob dies möglich ist und, ob ich Vorleistungen anrechnen lassen kann? "
+    ],
+    "tag": "Leistungsanerkennung (anderer Studiengang, andere Hochschule, Ausland)",
+    "responses": "Sie müssen zunächst selbst tätig werden und prüfen, was anerkennbar sein könnte. Welche Module ggf. anerkennbar sind können Sie dem Modulhandbuch entnehmen, das Sie auf der WWW-Seite des Prüfungsausschusses Wirtschaftsinformatik finden. Sollte Inhalt, CrP und SWS weitgehend übereinstimmen, ist im Allgemeinen von einer Anerkennung auszugehen. Konkret führt dies Prüfung der jeweilige Modulverantwortliche (ggf. der Dozent) durch, nachdem Sie in den Studiengang eingeschrieben sind - nicht vorher. Mit dem dortigen Formular bitte sukzessive die einzelnen 'zuständige Anerkennungsbeauftragte (Modulverantwortliche/Dozent)' kontaktieren. Am Ende das komplett ausgefüllte Formular an das MND-Dekanat (dekanat@mnd.thm.de) senden. Der Prüfungsausschuss (PA) entscheidet abschließend über eine Anerkennung.",
+    "scope": "bachelor"
+  }
+]
