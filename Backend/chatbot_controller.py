@@ -43,7 +43,7 @@ if __name__ == '__main__':
     #scope = input("Willkomen zu dem THM Chatbot. Haben Sie eine Frage über Bachelor oder Master?\n")
     scope = "bachelor"
     #user = input("Welcher User sind Sie ?\n")
-    user = "admin"
+    user = "student"
     chatbot = getChatbot()
     while True:
         if user == "student":
@@ -120,10 +120,10 @@ if __name__ == '__main__':
                                 print("Vielen Dank für Ihre Rückmeldung! Das Gespräch wird neugestartet\n\n")
                             else:
                                 question_id = insertNewQuestion(new_question, question)
-                                queries.insertNewLog(question_id, response["id"])
+                                queries.insertNewLog(question_id, 0)
                         else:
                             question_id = insertNewQuestion(new_question, question)
-                            queries.insertNewLog(question_id, response["id"])
+                            queries.insertNewLog(question_id, 0)
 
 #       ADMIN Part
         elif user == "admin":
@@ -131,6 +131,8 @@ if __name__ == '__main__':
                              "1. Modell trainieren\n"
                              "2. Fragen bearbeiten\n"
                              "3. User ändern\n"
+                             "4. Statistiken\n"
+                             "5. Fragen herunterladen\n"
                              "0. Beenden")
             if question == "0":
                 break
@@ -141,8 +143,10 @@ if __name__ == '__main__':
             elif question == "3":
                 user = "student"
                 pass
+            elif question == "4":
+                pass#FIll this up
             elif question == "2":
-                questions = queries.getQuestionsAndIDByResponseId('0')
+                questions = queries.getUnrevisedQuestions()
                 if len(questions) == 0:
                     print("Es sind keine neue Fragen vorhanden")
                     print("Das Gespräch wird neugestartet")
@@ -150,6 +154,7 @@ if __name__ == '__main__':
                     print("\n\nBitte wählen Sie eine Frage zum Bearbeiten aus:")
                     for index, question in enumerate(questions):
                         print(f'{index+1}: {question[1]}')
+                    print("------------------------------------")
                     index = input("0: Zurück zum Anfang")
                     if index == "0":
                         pass
@@ -161,12 +166,12 @@ if __name__ == '__main__':
                             print(f'{index+1}: {tag}')
                         print("------------------------------------")
                         print(f'#: Neue Kategorie')
-                        print(f'99: Frage löschen')
+                        print(f'##: Frage löschen')
                         index = input("0: Zurück zum Anfang")
                         if index == "0":
                             questions = []
                             pass
-                        elif index == "99":
+                        elif index == "##":
                             deleteQuestion(question[0])
                         elif index == "#":
                             tag = input("\n\nWie lautet die neue Kategorie?")

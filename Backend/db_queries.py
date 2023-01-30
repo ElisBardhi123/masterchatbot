@@ -56,12 +56,12 @@ def getResponseByResponseId(response_id):
     return cursor.fetchall().pop()[0]
 
 def getQuestionsByResponseId(response_id):
-    cursor.execute(f'SELECT question FROM questions WHERE response_id = "{response_id}"')
+    cursor.execute(f'SELECT question FROM questions WHERE response_id = "{response_id}" AND revised = 1')
     result = cursor.fetchall()
     return [question for question, in result]
 
-def getQuestionsAndIDByResponseId(response_id):
-    cursor.execute(f'SELECT id, question FROM questions WHERE response_id = "{response_id}"')
+def getUnrevisedQuestions():
+    cursor.execute(f'SELECT id, question FROM questions WHERE revised = 0')
     result = cursor.fetchall()
     return [[question[0], question[1]] for question in result]
 
@@ -80,12 +80,6 @@ def prepareDataFromDatabase():
 def getResponseByQuestion(question):
     response_id = getResponseIdByQuestion(question)
     return {"id": response_id,"response": getResponseByResponseId(response_id), "links": getLinksByResponseId(response_id)}
-
-def insertNewQuestion(question, response_id='0'):
-    sql = "INSERT INTO questions (question, response_id) VALUES (%s, %s)"
-    values = (question, response_id)
-    cursor.execute(sql, values)
-    cnx.commit()
 
 def getTagsFromQuestions(questions):
     categories = []
@@ -115,10 +109,19 @@ def getResponsesByTag(tag, scope):
     return [[tag[0], tag[1]] for tag in result]
 
 def updateQuestion(question_id, response_id):
-    sql = "UPDATE questions SET response_id = %s WHERE id = %s"
+    sql = "UPDATE questions SET response_id = %s, revised = 1 WHERE id = %s"
     values = (response_id, question_id)
     cursor.execute(sql, values)
     cnx.commit()
+
+def deleteQuestion(id):
+    sql = f'DELETE FROM questions WHERE id = "{id}"'
+    cursor.execute(sql)
+    cnx.commit()
+
+def getQuestionId(question):
+    cursor.execute(f'SELECT id FROM questions WHERE question = "{question}"')
+    return cursor.fetchall().pop()[0]
 
 def insertNewResponse(response, tag, scope):
     sql = "INSERT INTO responses (id, responses, tag, scope) VALUES (%s, %s, %s, %s)"
@@ -128,20 +131,17 @@ def insertNewResponse(response, tag, scope):
     cnx.commit()
     return id
 
-def deleteQuestion(id):
-    sql = f'DELETE FROM questions WHERE id = "{id}"'
-    cursor.execute(sql)
-    cnx.commit()
-
 def insertNewLog(question_id, response_id):
-    sql = f'INSERT INTO logs (question_id, response_id, timestamp) VALUES ({question_id},{response_id}, CURRENT_TIMESTAMP)'
+    sql = f'INSERT INTO logs (question_id, response_id, timestamp) VALUES ({question_id},"{response_id}", CURRENT_TIMESTAMP)'
     cursor.execute(sql)
     cnx.commit()
     return cursor.lastrowid
-
-def getQuestionId(question):
-    cursor.execute(f'SELECT id FROM questions WHERE question = "{question}"')
-    return cursor.fetchall().pop()[0]
+def insertNewQuestion(question, response_id='0'):
+    sql = "INSERT INTO questions (question, response_id) VALUES (%s, %s)"
+    values = (question, response_id)
+    cursor.execute(sql, values)
+    cnx.commit()
+    return cursor.lastrowid
 
 #if __name__ == '__main__':
 #    print(insertNewLog(1, "0"))
