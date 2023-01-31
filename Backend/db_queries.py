@@ -131,8 +131,8 @@ def insertNewResponse(response, tag, scope):
     cnx.commit()
     return id
 
-def insertNewLog(question_id, response_id):
-    sql = f'INSERT INTO logs (question_id, response_id, timestamp) VALUES ({question_id},"{response_id}", CURRENT_TIMESTAMP)'
+def insertNewLog(question_id, response_id, scope):
+    sql = f'INSERT INTO logs (question_id, response_id, scope, timestamp) VALUES ({question_id},"{response_id}", "{scope}" , CURRENT_TIMESTAMP)'
     cursor.execute(sql)
     cnx.commit()
     return cursor.lastrowid
@@ -143,6 +143,31 @@ def insertNewQuestion(question, response_id='0'):
     cnx.commit()
     return cursor.lastrowid
 
-#if __name__ == '__main__':
-#    print(insertNewLog(1, "0"))
+def getTopFiveAskedQuestions():
+    sql = "SELECT q.question, COUNT(l.question_id) as amount FROM `logs` as l join questions as q on l.question_id = q.id GROUP BY q.question LIMIT 5"
+    cursor.execute(sql)
+    result = cursor.fetchall()
+    return [[question[0], question[1]] for question in result]
 
+def getScopesFromLog():
+    sql = "SELECT scope, count(scope) FROM logs GROUP By scope"
+    cursor.execute(sql)
+    result = cursor.fetchall()
+    return [[scope[0], scope[1]] for scope in result]
+
+def getTagsFromLog():
+    sql = "SELECT r.tag, COUNT(r.tag) FROM logs as l join responses as r on l.response_id = r.id GROUP BY r.tag"
+    cursor.execute(sql)
+    result = cursor.fetchall()
+    return [[tag[0], tag[1]] for tag in result]
+
+if __name__ == '__main__':
+    import chatbot_controller as cc
+    cc.downloadQuestionsAndResponses()
+
+
+def insertLinkToResponse(link, response_id):
+    sql = f'INSERT INTO links (link, response_id) VALUES ("{link}","{response_id}")'
+    cursor.execute(sql)
+    cnx.commit()
+    return cursor.lastrowid

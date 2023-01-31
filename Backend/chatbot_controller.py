@@ -1,6 +1,9 @@
 import db_queries as queries
 import ChatBot.src.chatbot_semantic as semantic_bot
 import ChatBot.src.chatbot_spacy as spacy_bot
+import matplotlib.pyplot as plt
+import time
+import json
 
 def getChatbot():
     content_bachelor, content_master = queries.getResult()
@@ -25,6 +28,15 @@ def insertNewQuestion(new_question, question):
 def updateQuestion(question, response):
     queries.updateQuestion(question, response)
     print("Der Frage wurde die neue Antwort zugewiesen.")
+    index = input("Möchten Sie Links hinzufügen?\n")
+    if index == "Ja":
+        while True:
+            link = input("Bitte geben Sie einen Link ein (0 für Abbrechen)\n")
+            if link == "0":
+                break
+            else:
+                queries.insertLinkToResponse(link, response)
+                print("Der Link wurde erfolgreich hinzugefügt\n")
     print("Bitte trainieren Sie das Modell, um die neuen Fragen zur Verfügung zu stellen")
     print("Das Gespräch wird neugestartet\n")
 
@@ -37,6 +49,43 @@ def deleteQuestion(id):
     queries.deleteQuestion(id)
     print("Die Frage wurde gelöscht.")
     print("Das Gespräch wird neugestartet\n")
+
+def printTopQuestionsToText(top_questions):
+    print("\n\nTop 5 Fragen: \n")
+    for index, question in enumerate(top_questions):
+        print(f'{index}. {question[0]} ({question[1]} Mal aufgerufen)')
+
+def showPieChart(scopes):
+    question_counts = [scope[1] for scope in scopes]
+    plt.pie(question_counts, labels=[scope[0] + " (" + str(scope[1]) + ")" for scope in scopes])
+    plt.axis('equal')
+    plt.title('Anzahl')
+    plt.show()
+
+def prepareStatistics():
+    top_questions = queries.getTopFiveAskedQuestions()
+    printTopQuestionsToText(top_questions)
+    scopes = queries.getScopesFromLog()
+    showPieChart(scopes)
+    tags = queries.getTagsFromLog()
+    showPieChart(tags)
+
+def getResponses():
+    responses = queries.getResponses()
+    for response in responses:
+        questions = queries.getQuestionsByResponseId(response_id=response["id"])
+        response["questions"] = questions
+        links = queries.getLinksByResponseId(response_id=response["id"])
+        response["links"] = links
+    return responses
+
+def downloadQuestionsAndResponses():
+    print("Fragen werden heruntergeladen.....")
+    data = getResponses()
+    name = time.time()
+    with open(f'chatbot_questions/chatbot_questions_{name}.json', "w") as outfile:
+        json.dump(data, outfile,indent=4, ensure_ascii=False)
+    print(f'Fragen wurden in der Datei "chatbot_questions_{name}" gespeichert')
 
 
 if __name__ == '__main__':
@@ -81,7 +130,7 @@ if __name__ == '__main__':
                         question_id = queries.insertNewQuestion(question=question, response_id=response["id"])
                     else:
                         question_id = queries.getQuestionId(sample_question)
-                    queries.insertNewLog(question_id, response["id"])
+                    queries.insertNewLog(question_id, response["id"], scope)
                 else:
                     print("Welche der folgenden Fragen ist Ihrer Frage ähnlich?\n")
                     for index, top_question in enumerate(top_questions):
@@ -94,7 +143,7 @@ if __name__ == '__main__':
                             question_id = queries.insertNewQuestion(question=question, response_id=response["id"])
                         else:
                             question_id = queries.getQuestionId(sample_question)
-                        queries.insertNewLog(question_id, response["id"])
+                        queries.insertNewLog(question_id, response["id"], scope)
                         print("Vielen Dank für Ihre Rückmeldung! Das Gespräch wird neugestartet\n\n")
                     else:
                         top_questions = list(set([question[0] for question in top_questions]))
@@ -116,36 +165,39 @@ if __name__ == '__main__':
                                                                             response_id=response["id"])
                                 else:
                                     question_id = queries.getQuestionId(sample_question)
-                                queries.insertNewLog(question_id, response["id"])
+                                queries.insertNewLog(question_id, response["id"], scope)
                                 print("Vielen Dank für Ihre Rückmeldung! Das Gespräch wird neugestartet\n\n")
                             else:
                                 question_id = insertNewQuestion(new_question, question)
-                                queries.insertNewLog(question_id, 0)
+                                queries.insertNewLog(question_id, 0, scope)
                         else:
                             question_id = insertNewQuestion(new_question, question)
-                            queries.insertNewLog(question_id, 0)
+                            queries.insertNewLog(question_id, 0, scope)
 
 #       ADMIN Part
         elif user == "admin":
-            question = input("\n\nWie kann ich Ihnen helfen (Admin)?\n"
+            index = input("\n\nWie kann ich Ihnen helfen (Admin)?\n"
                              "1. Modell trainieren\n"
                              "2. Fragen bearbeiten\n"
                              "3. User ändern\n"
-                             "4. Statistiken\n"
+                             "4. Statistiken aufrufen\n"
                              "5. Fragen herunterladen\n"
                              "0. Beenden")
-            if question == "0":
+            if index == "0":
                 break
-            elif question == "1":
+            elif index == "1":
                 print("Das Chatbot wird neu trainiert. Bitte warten Sie!")
                 chatbot = getChatbot()
                 print("Training erfolgreich")
-            elif question == "3":
+            elif index == "3":
                 user = "student"
                 pass
-            elif question == "4":
-                pass#FIll this up
-            elif question == "2":
+            elif index == "4":
+                prepareStatistics()
+            elif index == "5":
+                downloadQuestionsAndResponses()
+                pass
+            elif index == "2":
                 questions = queries.getUnrevisedQuestions()
                 if len(questions) == 0:
                     print("Es sind keine neue Fragen vorhanden")
