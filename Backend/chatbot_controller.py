@@ -2,18 +2,22 @@ import db_queries as queries
 import ChatBot.src.chatbot_semantic as semantic_bot
 import ChatBot.src.chatbot_spacy as spacy_bot
 import matplotlib.pyplot as plt
+import emailController
 import time
 import json
+
 
 def getChatbot():
     content_bachelor, content_master = queries.getResult()
     return semantic_bot.ChatBot(content_bachelor, content_master)
+
 
 def getResponseByQuestion(sample_question):
     response = queries.getResponseByQuestion(sample_question)
     print(response["response"])
     print(f'Links: {response["links"]}')
     return response
+
 
 def insertNewQuestion(new_question, question):
     question_id = False
@@ -25,9 +29,15 @@ def insertNewQuestion(new_question, question):
     print("Das Gespräch wird neugestartet\n")
     return question_id
 
-def updateQuestion(question, response):
-    queries.updateQuestion(question, response)
+def sendAnswerPerMail(question_id, question, response, links):
+    email = queries.getEmailFromQuestionId(question_id)
+    emailController.sendAnswerPerMail(email,question, [response,links])
+
+
+def updateQuestion(question_id, question ,response):
+    queries.updateQuestion(question_id, response)
     print("Der Frage wurde die neue Antwort zugewiesen.")
+    links = []
     index = input("Möchten Sie Links hinzufügen?\n")
     if index == "Ja":
         while True:
@@ -36,24 +46,30 @@ def updateQuestion(question, response):
                 break
             else:
                 queries.insertLinkToResponse(link, response)
+                links.append(link)
                 print("Der Link wurde erfolgreich hinzugefügt\n")
+    sendAnswerPerMail(question_id, question, response, links)
     print("Bitte trainieren Sie das Modell, um die neuen Fragen zur Verfügung zu stellen")
     print("Das Gespräch wird neugestartet\n")
 
-def insertNewTagToResponse(tag, question):
+
+def insertNewTagToResponse(tag, question_id, question):
     response = input("Wie lautet die neue Antwort?")
     response_id = queries.insertNewResponse(response, tag, scope)
-    updateQuestion(question, response_id)
+    updateQuestion(question_id, question, response_id)
+
 
 def deleteQuestion(id):
     queries.deleteQuestion(id)
     print("Die Frage wurde gelöscht.")
     print("Das Gespräch wird neugestartet\n")
 
+
 def printTopQuestionsToText(top_questions):
     print("\n\nTop 5 Fragen: \n")
     for index, question in enumerate(top_questions):
         print(f'{index}. {question[0]} ({question[1]} Mal aufgerufen)')
+
 
 def showPieChart(scopes):
     question_counts = [scope[1] for scope in scopes]
@@ -62,6 +78,7 @@ def showPieChart(scopes):
     plt.title('Anzahl')
     plt.show()
 
+
 def prepareStatistics():
     top_questions = queries.getTopFiveAskedQuestions()
     printTopQuestionsToText(top_questions)
@@ -69,6 +86,9 @@ def prepareStatistics():
     showPieChart(scopes)
     tags = queries.getTagsFromLog()
     showPieChart(tags)
+    unanswered_questions = queries.getNumberOfQuestionsFromLogs()
+    showPieChart(unanswered_questions)
+
 
 def getResponses():
     responses = queries.getResponses()
@@ -79,28 +99,35 @@ def getResponses():
         response["links"] = links
     return responses
 
+
 def downloadQuestionsAndResponses():
     print("Fragen werden heruntergeladen.....")
     data = getResponses()
     name = time.time()
     with open(f'chatbot_questions/chatbot_questions_{name}.json', "w") as outfile:
-        json.dump(data, outfile,indent=4, ensure_ascii=False)
+        json.dump(data, outfile, indent=4, ensure_ascii=False)
     print(f'Fragen wurden in der Datei "chatbot_questions_{name}" gespeichert')
 
 
+def insertNewLog(question_id, response_id, scope, email=None, question=None):
+    if response_id == 0:
+        emailController.sendEmailToAdmin(question_id, email, question)
+    queries.insertNewLog(question_id,response_id,scope)
+
+
 if __name__ == '__main__':
-    #scope = input("Willkomen zu dem THM Chatbot. Haben Sie eine Frage über Bachelor oder Master?\n")
+    # scope = input("Willkomen zu dem THM Chatbot. Haben Sie eine Frage über Bachelor oder Master?\n")
     scope = "bachelor"
-    #user = input("Welcher User sind Sie ?\n")
+    # user = input("Welcher User sind Sie ?\n")
     user = "student"
     chatbot = getChatbot()
     while True:
         if user == "student":
             new_question = False
             index = input("\n\nWie kann ich Ihnen helfen (Student)?\n"
-                             "1. Fragen stellen\n"
-                             "2. User ändern\n"
-                             "0. Beenden")
+                          "1. Fragen stellen\n"
+                          "2. User ändern\n"
+                          "0. Beenden")
             if index == "0":
                 break
             elif index == "2":
@@ -119,9 +146,11 @@ if __name__ == '__main__':
                     print(f'Links: {links}')
                     print(f'Ähnlichkeit: {max_score}')
                 elif max_score >= 0.35:
-                    print("Wir nehmen an, dass es um folgende Frage geht: " + sample_question + "\nDaraus ergibt sich folgende Antwort: " + answer)
+                    print(
+                        "Wir nehmen an, dass es um folgende Frage geht: " + sample_question + "\nDaraus ergibt sich folgende Antwort: " + answer)
                 else:
-                    print("Leider konnte keine passende Antwort auf Ihre Frage gefunden werden. Bitte schauen Sie in folgendes FAQ.")
+                    print(
+                        "Leider konnte keine passende Antwort auf Ihre Frage gefunden werden. Bitte schauen Sie in folgendes FAQ.")
 
                 boolean = input("\nSind Sie mit der Antwort zufrieden?\n")
                 if boolean == "Ja":
@@ -134,11 +163,11 @@ if __name__ == '__main__':
                 else:
                     print("Welche der folgenden Fragen ist Ihrer Frage ähnlich?\n")
                     for index, top_question in enumerate(top_questions):
-                        print(f'{index+1}: {top_question[0]} ({top_question[1]})')
+                        print(f'{index + 1}: {top_question[0]} ({top_question[1]})')
                     print(f'0: Keine')
                     index = input()
                     if index != '0':
-                        response = getResponseByQuestion(top_questions[int(index)-1][0])
+                        response = getResponseByQuestion(top_questions[int(index) - 1][0])
                         if new_question:
                             question_id = queries.insertNewQuestion(question=question, response_id=response["id"])
                         else:
@@ -151,7 +180,7 @@ if __name__ == '__main__':
                         tags = list(set(tags))
                         print("Zu welcher Kategorie gehört Ihre Frage?")
                         for index, tag in enumerate(tags):
-                            print(f'{index+1}: {tag}')
+                            print(f'{index + 1}: {tag}')
                         index = input(f'0: Keine\n')
                         if index != '0':
                             similar_questions = queries.getQuestionsByTag(tags[int(index) - 1])
@@ -159,30 +188,34 @@ if __name__ == '__main__':
                                 print(f'{index + 1}: {similar_question}')
                             index = input(f'0: Keine\n')
                             if index != '0':
-                                response = getResponseByQuestion(sample_question[int(index)+1])
+                                response = getResponseByQuestion(sample_question[int(index) + 1])
                                 if new_question:
                                     question_id = queries.insertNewQuestion(question=question,
                                                                             response_id=response["id"])
                                 else:
                                     question_id = queries.getQuestionId(sample_question)
-                                queries.insertNewLog(question_id, response["id"], scope)
+                                insertNewLog(question_id, response["id"], scope)
                                 print("Vielen Dank für Ihre Rückmeldung! Das Gespräch wird neugestartet\n\n")
                             else:
+                                email = input("Bitte geben Sie Ihre Mail Adresse ein, "
+                                              "damit ich Ihnen eine Antwort so schnell wie möglich zurück geben kann.")
                                 question_id = insertNewQuestion(new_question, question)
-                                queries.insertNewLog(question_id, 0, scope)
+                                insertNewLog(question_id, 0, scope, email, new_question)
                         else:
+                            email = input("Bitte geben Sie Ihre Mail Adresse ein, "
+                                          "damit ich Ihnen eine Antwort so schnell wie möglich zurück geben kann.")
                             question_id = insertNewQuestion(new_question, question)
-                            queries.insertNewLog(question_id, 0, scope)
+                            insertNewLog(question_id, 0, scope, email, new_question)
 
-#       ADMIN Part
+        #       ADMIN Part
         elif user == "admin":
             index = input("\n\nWie kann ich Ihnen helfen (Admin)?\n"
-                             "1. Modell trainieren\n"
-                             "2. Fragen bearbeiten\n"
-                             "3. User ändern\n"
-                             "4. Statistiken aufrufen\n"
-                             "5. Fragen herunterladen\n"
-                             "0. Beenden")
+                          "1. Modell trainieren\n"
+                          "2. Fragen bearbeiten\n"
+                          "3. User ändern\n"
+                          "4. Statistiken aufrufen\n"
+                          "5. Fragen herunterladen\n"
+                          "0. Beenden")
             if index == "0":
                 break
             elif index == "1":
@@ -205,17 +238,17 @@ if __name__ == '__main__':
                 else:
                     print("\n\nBitte wählen Sie eine Frage zum Bearbeiten aus:")
                     for index, question in enumerate(questions):
-                        print(f'{index+1}: {question[1]}')
+                        print(f'{index + 1}: {question[1]}')
                     print("------------------------------------")
                     index = input("0: Zurück zum Anfang")
                     if index == "0":
                         pass
                     else:
-                        question = questions[int(index)-1]
+                        question = questions[int(index) - 1]
                         tags = queries.getTagsByScope(scope)
                         print("\n\nZu welcher Kategorie gehört diese Frage?")
                         for index, tag in enumerate(tags):
-                            print(f'{index+1}: {tag}')
+                            print(f'{index + 1}: {tag}')
                         print("------------------------------------")
                         print(f'#: Neue Kategorie')
                         print(f'##: Frage löschen')
@@ -227,9 +260,9 @@ if __name__ == '__main__':
                             deleteQuestion(question[0])
                         elif index == "#":
                             tag = input("\n\nWie lautet die neue Kategorie?")
-                            insertNewTagToResponse(tag, question[0])
+                            insertNewTagToResponse(tag, question[0], question[1])
                         else:
-                            tag = tags[int(index)-1]
+                            tag = tags[int(index) - 1]
                             responses = queries.getResponsesByTag(tag, scope)
                             for index, response in enumerate(responses):
                                 print(f'{index + 1}: {response[1]}')
@@ -238,8 +271,6 @@ if __name__ == '__main__':
                             if index == "0":
                                 pass
                             elif index == "#":
-                                insertNewTagToResponse(tag, question[0])
+                                insertNewTagToResponse(tag, question[0], question[1])
                             else:
-                                updateQuestion(question[0], responses[int(index) - 1][0])
-
-
+                                updateQuestion(question[0], question[1], responses[int(index) - 1][0])

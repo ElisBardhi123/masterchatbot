@@ -161,13 +161,27 @@ def getTagsFromLog():
     result = cursor.fetchall()
     return [[tag[0], tag[1]] for tag in result]
 
-if __name__ == '__main__':
-    import chatbot_controller as cc
-    cc.downloadQuestionsAndResponses()
-
 
 def insertLinkToResponse(link, response_id):
     sql = f'INSERT INTO links (link, response_id) VALUES ("{link}","{response_id}")'
     cursor.execute(sql)
     cnx.commit()
     return cursor.lastrowid
+
+
+def getEmailFromQuestionId(question_id):
+    cursor.execute(f'SELECT email FROM logs WHERE question_id = "{question_id}"')
+    return cursor.fetchall().pop()[0]
+
+
+def getNumberOfQuestionsFromLogs():
+    sql = 'SELECT "Nicht beantwortete Fragen" AS Name, COUNT(question_id) FROM logs WHERE response_id = 0 ' \
+          'UNION ' \
+          'SELECT "Beantwortete Fragen" AS Name, COUNT(question_id) FROM logs WHERE response_id <> 0 '
+    cursor.execute(sql)
+    result = cursor.fetchall()
+    return [[question[0], question[1]] for question in result]
+
+if __name__ == '__main__':
+    import chatbot_controller as cb
+    cb.prepareStatistics()
